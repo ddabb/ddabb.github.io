@@ -8,7 +8,7 @@
       <link href="/%E4%B8%AD%E5%B9%B4%E4%BA%BA%E7%9A%84%E5%9B%B0%E5%A2%83/"/>
       <url>/%E4%B8%AD%E5%B9%B4%E4%BA%BA%E7%9A%84%E5%9B%B0%E5%A2%83/</url>
       
-        <content type="html"><![CDATA[<p>有时候人会想要很多东西，但是自己的能力不一定能配上自己的野心。这一切甚至成为了自己痛苦的根源。<br>有时候觉得自己应该通过多年努力，应该在一个角落里面应该有属于自己的房子，属于自己的车子。甚至有属于自己的事业，希望自己参透了这个社会的商业逻辑，而不是有着上不完的班，加不完的班。<br>听领导使唤，看领导脸色，为了人民币而生活，始终都是有一个无形的枷锁在困扰着自己。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>一、绪论</strong><br>在人生的旅途中，我们都会经历中年这个阶段。中年是一个承上启下的时期，也是一个面临诸多挑战和困境的时期。在这个阶段，人们通常需要面对家庭、事业、健康等多方面的压力。本文旨在探讨中年人所面临的困境，并提供一些应对策略，帮助中年人更好地度过这个阶段。</p><p><strong>二、中年人的困境</strong></p><ol><li><strong>家庭压力</strong>：中年人通常需要承担照顾父母和孩子的责任，这可能会导致他们在工作和家庭之间感到压力巨大。</li><li><strong>事业瓶颈</strong>：在职场上，中年人可能会遇到晋升困难、职业转型困难等问题，导致他们感到事业发展受限。</li><li><strong>健康问题</strong>：随着年龄的增长，中年人的身体开始出现各种健康问题，如高血压、糖尿病、关节炎等，这些问题可能会影响他们的生活质量和工作效率。</li><li><strong>心理问题</strong>：中年人可能会面临心理问题，如焦虑、抑郁、失眠等，这些问题可能会影响他们的心理健康和生活质量。</li></ol><p><strong>三、应对策略</strong></p><ol><li><strong>合理规划</strong>：中年人需要合理规划自己的生活和职业，制定明确的目标和计划，以便更好地应对各种挑战。</li><li><strong>健康管理</strong>：中年人需要重视自己的健康，定期进行体检，保持良好的生活习惯，如合理饮食、适量运动、充足睡眠等，以维持身体健康。</li><li><strong>学习提升</strong>：中年人需要不断学习提升自己的能力和素质，以适应职场的变化和发展，同时也可以丰富自己的生活和精神世界。</li><li><strong>心理调节</strong>：中年人需要学会心理调节，保持积极乐观的心态，面对压力和困难时能够及时调整自己的情绪和状态。</li></ol><p><strong>四、结论</strong><br>中年人是社会的中坚力量，他们面临的困境不仅影响个人的生活质量，也关系到整个社会的发展和稳定。因此，我们应该关注中年人的困境，提供必要的支持和帮助，让他们能够更好地度过这个阶段。同时，中年人自身也需要积极应对各种挑战，保持乐观向上的心态，不断提升自己的能力和素质，为自己和社会创造更大的价值。</p>]]></content>
       
       
       <categories>
@@ -251,7 +251,7 @@
       <link href="/Setting_up_visual_studio_code_in_CentOS/"/>
       <url>/Setting_up_visual_studio_code_in_CentOS/</url>
       
-        <content type="html"><![CDATA[<p><strong>Visual Studio Code 安装</strong></p><p>导入Microsoft GPG key：</p><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm --<span class="keyword">import</span> https:<span class="comment">//packages.microsoft.com/keys/microsoft.asc</span></span><br></pre></td></tr></table></figure><p>官网下载vscode</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit <span class="regexp">/etc/yum</span>.repos.d/vscode.repo</span><br></pre></td></tr></table></figure><p>将下面的内容粘贴进去，并且启用 VS Code 源：</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[code]</span></span><br><span class="line"><span class="attr">name</span>=Visual Studio Code</span><br><span class="line"><span class="attr">baseurl</span>=https://packages.microsoft.com/yumrepos/vscode</span><br><span class="line"><span class="attr">enabled</span>=<span class="number">1</span></span><br><span class="line"><span class="attr">gpgcheck</span>=<span class="number">1</span></span><br><span class="line"><span class="attr">gpgkey</span>=https://packages.microsoft.com/keys/microsoft.asc</span><br></pre></td></tr></table></figure><p>保存文件，并且关闭你的文本编辑器。</p><p>安装最新版本的 Visual Studio Code，输入：</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">sudo</span> dnf install <span class="meta">code</span></span><br></pre></td></tr></table></figure><p>升级visualstudio code</p><p>当一个新版本发布时，你可以通过你的桌面软件升级工具或者通过在终端运行下面的命令，来升级 Visual Studio Code：  </p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo dnf update</span></span><br></pre></td></tr></table></figure><p><strong>.net core 安装</strong></p><p>注册 Microsoft 密钥和源</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm -Uvh https:<span class="regexp">//</span>packages.microsoft.com<span class="regexp">/config/</span>centos<span class="regexp">/7/</span>packages-microsoft-prod.rpm</span><br></pre></td></tr></table></figure><p>依次执行安装SDK和运行时。</p><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> yum install dotnet-sdk-<span class="number">3</span>.<span class="number">1</span></span><br><span class="line"><span class="attribute">sudo</span> yum install dotnet-runtime-<span class="number">3</span>.<span class="number">1</span></span><br><span class="line"><span class="attribute">sudo</span> yum install aspnetcore-runtime-<span class="number">3</span>.<span class="number">1</span></span><br></pre></td></tr></table></figure><p>打开扩展页面，搜索C#，安装C#支持；</p><p>打开sln文件所在文件夹，配置好launch.json文件，然后ctrl+f5就可以进行调试了。</p>]]></content>
+        <content type="html"><![CDATA[<p><strong>Visual Studio Code 安装</strong></p><p>导入Microsoft GPG key：</p><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm --<span class="keyword">import</span> https:<span class="comment">//packages.microsoft.com/keys/microsoft.asc</span></span><br></pre></td></tr></table></figure><p>官网下载vscode</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> gedit /etc/yum.repos.d/vscode.repo</span><br></pre></td></tr></table></figure><p>将下面的内容粘贴进去，并且启用 VS Code 源：</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[code]</span></span><br><span class="line"><span class="attr">name</span>=Visual Studio Code</span><br><span class="line"><span class="attr">baseurl</span>=https://packages.microsoft.com/yumrepos/vscode</span><br><span class="line"><span class="attr">enabled</span>=<span class="number">1</span></span><br><span class="line"><span class="attr">gpgcheck</span>=<span class="number">1</span></span><br><span class="line"><span class="attr">gpgkey</span>=https://packages.microsoft.com/keys/microsoft.asc</span><br></pre></td></tr></table></figure><p>保存文件，并且关闭你的文本编辑器。</p><p>安装最新版本的 Visual Studio Code，输入：</p><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">sudo</span> dnf install <span class="meta">code</span></span><br></pre></td></tr></table></figure><p>升级visualstudio code</p><p>当一个新版本发布时，你可以通过你的桌面软件升级工具或者通过在终端运行下面的命令，来升级 Visual Studio Code：  </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> dnf update</span><br></pre></td></tr></table></figure><p><strong>.net core 安装</strong></p><p>注册 Microsoft 密钥和源</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo rpm -Uvh https:<span class="regexp">//</span>packages.microsoft.com<span class="regexp">/config/</span>centos<span class="regexp">/7/</span>packages-microsoft-prod.rpm</span><br></pre></td></tr></table></figure><p>依次执行安装SDK和运行时。</p><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> yum install dotnet-sdk-<span class="number">3</span>.<span class="number">1</span></span><br><span class="line"><span class="attribute">sudo</span> yum install dotnet-runtime-<span class="number">3</span>.<span class="number">1</span></span><br><span class="line"><span class="attribute">sudo</span> yum install aspnetcore-runtime-<span class="number">3</span>.<span class="number">1</span></span><br></pre></td></tr></table></figure><p>打开扩展页面，搜索C#，安装C#支持；</p><p>打开sln文件所在文件夹，配置好launch.json文件，然后ctrl+f5就可以进行调试了。</p>]]></content>
       
       
       <categories>
@@ -3398,378 +3398,6 @@
     
     
     <entry>
-      <title>完工尚需绩效指数</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/</url>
-      
-        <content type="html"><![CDATA[<p>完工尚需绩效指数（TCPI）是一种为了实现特定的管理目标，剩余资源的使用必须达到的成本绩效指标，是完成剩余工作所需的成本与剩余预算之比。<br>TCPI 是指为了实现具体的管理目标（如BAC 或 EAC），剩余工作的实施必须达到的成本绩效指标。<br>如果 BAC 已明显不再可行，则项目经理应考虑使用预测的 EAC。<br>经过批准后，就用 EAC 取代 BAC。基于 BAC 的 TCPI 公式：TCPI &#x3D;（BAC –EV）&#x2F;（BAC – AC）。</p><p>TCPI 的概念可用图 7-13 表示。<br>其计算公式在图的左下角，用剩余工作（BAC 减去 EV）除以剩余资金（可以是 BAC 减去 AC，或 EAC 减去 AC）。</p><p>如果累计 CPI 低于基准（如图 7-13 所示），那么项目的全部剩余工作都应立即按 TCPI（BAC）（图7-13 中最高的那条线）执行，才能确保实际总成本不超过批准的 BAC。<br>至于所要求的这种绩效水平是否可行，就需要综合考虑多种因素（包括风险、项目剩余时间和技术绩效）后才能判断；如果不可行，就需要把项目未来所需的绩效水平调整为如 TCPI（EAC）线所示。基于 EAC 的 TCPI 公式：</p><p>TCPI &#x3D;（BAC – EV）&#x2F;（EAC – AC）。表 7-1 列出了 EVM 的计算公式。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 监控过程组 </tag>
-            
-            <tag> 控制成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>控制成本</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<p>控制成本是监督项目状态，以更新项目成本和管理成本基准变更的过程。</p><p>本过程的主要作用是，在整个项目期间保持对成本基准的维护。</p><p>本过程需要在整个项目期间开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.4控制成本.png"><br>要更新预算，就需要了解截至目前的实际成本。</p><p>只有经过实施整体变更控制过程（见 4.6 节）的批准，才可以增加预算。</p><p>只监督资金的支出，而不考虑由这些支出所完成的工作的价值，对项目没有什么意义，最多只能跟踪资金流。</p><p>所以在成本控制中，应重点分析项目资金支出与相应完成的工作之间的关系。</p><p>有效成本控制的关键在于管理经批准的成本基准。</p><p>项目成本控制包括：</p><ul><li><p>对造成成本基准变更的因素施加影响；</p></li><li><p>确保所有变更请求都得到及时处理；</p></li><li><p>当变更实际发生时，管理这些变更；</p></li><li><p>确保成本支出不超过批准的资金限额，既不超出按时段、按 WBS 组件、按活动分配的限额，也不超出项目总限额；</p></li><li><p>监督成本绩效，找出并分析与成本基准间的偏差；</p></li><li><p>对照资金支出，监督工作绩效；</p></li><li><p>防止在成本或资源使用报告中出现未经批准的变更；</p></li><li><p>向相关方报告所有经批准的变更及其相关成本；</p></li><li><p>设法把预期的成本超支控制在可接受的范围内。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 监控过程组 </tag>
-            
-            <tag> 控制成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>估算成本</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<p>估算成本是对完成项目工作所需资源成本进行近似估算的过程。</p><p>本过程的主要作用是，确定项目所需的资金。</p><p>本过程应根据需要在整个项目期间定期开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.2估算成本.png"><br>成本估算是对完成活动所需资源的可能成本的量化评估，是在某特定时点，根据已知信息所做出的成本预测。</p><p>在估算成本时，需要识别和分析可用于启动与完成项目的备选成本方案；需要权衡备选成本方案并考虑风险，如比较自制成本与外购成本、购买成本与租赁成本及多种资源共享方案，以优化项目成本。</p><p>通常用某种货币单位（如美元、欧元、日元等）进行成本估算，但有时也可采用其他计量单位，如人时数或人天数，以消除通货膨胀的影响，便于成本比较。</p><p>在项目过程中，应该随着更详细信息的呈现和假设条件的验证，对成本估算进行审查和优化。</p><p>在项目生命周期中，项目估算的准确性亦将随着项目的进展而逐步提高。<br>例如，在启动阶段可得出项目的粗略量级估算（Rough Order of Magnitude，ROM），其区间为 −25% 到 +75%；之后，随着信息越来越详细，确定性估算的区间可缩小至 −5% 到 +10%。<br>某些组织已经制定出相应的指南，规定何时进行优化，以及每次优化所要达到的置信度或准确度。</p><p>进行成本估算，应该考虑将向项目收费的全部资源，包括（但不限于）人工、材料、设备、服务、设施，以及一些特殊的成本种类，如通货膨胀补贴、融资成本或应急成本。</p><p>成本估算可在活动层级呈现，也可以汇总形式呈现。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 估算成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>制定预算</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/</url>
-      
-        <content type="html"><![CDATA[<p>制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。</p><p>本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。</p><p>本过程仅开展一次或仅在项目的预定义点开展。  </p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.3制定预算.png"><p>项目预算包括经批准用于执行项目的全部资金，而成本基准是经过批准且按时间段分配的项目预算，包括应急储备，但不包括管理储备。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>历史信息审核</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/</url>
-      
-        <content type="html"><![CDATA[<p>审核历史信息有助于进行参数估算或类比估算。<br>历史信息可包括各种项目特征（参数），它们用于建立数学模型预测项目总成本。<br>这些数学模型可以是简单的（例如，建造住房的总成本取决于单位面积建造成本），也可以是复杂的（例如，软件开发项目的成本模型中有多个变量，且每个变量又受许多因素的影响）。</p><p>类比和参数模型的成本及准确性可能差别很大。在以下情况下，它们将最为可靠：</p><ul><li>用来建立模型的历史信息准确；</li><li>模型中的参数易于量化；</li><li>模型可以调整，以便对大项目、小项目和各项目阶段都适用。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本基准</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/</url>
-      
-        <content type="html"><![CDATA[<p>成本基准是经过批准的、按时间段分配的项目预算，不包括任何管理储备，只有通过正式的变更控制程序才能变更，用作与实际结果进行比较的依据。<br>成本基准是不同进度活动经批准的预算的总和。</p><p>项目预算和成本基准的各个组成部分，如图 7-8 所示。先汇总各项目活动的成本估算及其应急储备（见 7.2.2.6 节），得到相关工作包的成本；<br>然后汇总各工作包的成本估算及其应急储备，得到控制账户的成本；接着再汇总各控制账户的成本，得到成本基准。<br>由于成本基准中的成本估算与进度活动直接关联，因此就可按时间段分配成本基准，得到一条 S 曲线，如图 7-9 所示。<br>对于使用挣值管理的项目，成本基准指的是绩效测量基准。</p><p>最后，在成本基准之上增加管理储备（见 7.2.2.3 节），得到项目预算。<br>当出现有必要动用管理储备的变更时，则应该在获得变更控制过程的批准之后，把适量的管理储备移入成本基准中。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本汇总</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/</url>
-      
-        <content type="html"><![CDATA[<p>先把成本估算汇总到 WBS 中的工作包，再由工作包汇总至 WBS 的更高层次（如控制账户），最终得出整个项目的总成本。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>融资</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/</url>
-      
-        <content type="html"><![CDATA[<p>融资是指为项目获取资金。<br>长期的基础设施、工业和公共服务项目通常会寻求外部融资。<br>如果项目使用外部资金，出资实体可能会提出一些必须满足的要求。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>资金限制平衡</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/</url>
-      
-        <content type="html"><![CDATA[<p>应该根据对项目资金的任何限制，来平衡资金支出。<br>如果发现资金限制与计划支出之间的差异，则可能需要调整工作的进度计划，以平衡资金支出水平。<br>这可以通过在项目进度计划中添加强制日期来实现。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>项目资金需求</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/</url>
-      
-        <content type="html"><![CDATA[<p>根据成本基准，确定总资金需求和阶段性（如季度或年度）资金需求。<br>成本基准中既包括预计支出及预计债务。<br>项目资金通常以增量的方式投入，并且可能是非均衡的，呈现出图 7-9 中所示的阶梯状。</p><p>如果有管理储备，则总资金需求等于成本基准加管理储备。<br>在资金需求文件中，也可说明资金来源。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本管理计划</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/</url>
-      
-        <content type="html"><![CDATA[<p>成本管理计划是项目管理计划的组成部分，描述将如何规划、安排和控制项目成本。<br>成本管理过程及其工具与技术应记录在成本管理计划中。</p><p>例如，在成本管理计划中规定：</p><ul><li>计量单位。需要规定每种资源的计量单位，例如用于测量时间的人时数、人天数或周数，用于计量数量的米、升、吨、千米或立方码，或者用货币表示的总价。</li><li>精确度。根据活动范围和项目规模，设定成本估算向上或向下取整的程度（例如 995.59 美元取整为 1,000 美元）。</li><li>准确度。为活动成本估算规定一个可接受的区间（如 ±10%），其中可能包括一定数量的应急储备。</li><li>组织程序链接。工作分解结构（见 5.4 节）为成本管理计划提供了框架，以便据此规范地开展成本估算、预算和控制。在项目成本核算中使用的 WBS 组成部分，称为控制账户（CA），每个控制账户都有唯一的编码或账号，直接与执行组织的会计制度相联系。</li><li>控制临界值。可能需要规定偏差临界值，用于监督成本绩效。它是在需要采取某种措施前，允许出现的最大差异，通常用偏离基准计划的百分数来表示。</li><li>绩效测量规则。需要规定用于绩效测量的挣值管理（EVM）规则。例如，成本管理计划应该：</li><li>定义 WBS 中用于绩效测量的控制账户；</li><li>确定拟用的 EVM 技术（如加权里程碑法、固定公式法、完成百分比法等）；</li><li>规定跟踪方法，以及用于计算项目完工估算（EAC）的 EVM 公式，该公式计算出的结果可用于验证通过自下而上方法得出的完工估算。</li><li>报告格式。需要规定各种成本报告的格式和编制频率。</li><li>其他细节。关于成本管理活动的其他细节包括（但不限于）：</li><li>对战略筹资方案的说明；</li><li>处理汇率波动的程序；</li><li>记录项目成本的程序。<br>关于挣值管理的更多信息，参见《挣值管理实践标准》（第 2 版）[17]。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 规划成本管理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>规划成本管理</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/</url>
-      
-        <content type="html"><![CDATA[<p>规划成本管理是确定如何估算、预算、管理、监督和控制项目成本的过程。</p><p>本过程的主要作用是，在整个项目期间为如何管理项目成本提供指南和方向。</p><p>本过程仅开展一次或仅在项目的预定义点开展。</p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.1规划成本管理.png">]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 规划成本管理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>专家判断</title>
       <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B/%E4%B8%93%E5%AE%B6%E5%88%A4%E6%96%AD/"/>
       <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B/%E4%B8%93%E5%AE%B6%E5%88%A4%E6%96%AD/</url>
@@ -4346,9 +3974,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 实施整体变更控制 </tag>
             
@@ -4377,9 +4005,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 实施整体变更控制 </tag>
             
@@ -4408,9 +4036,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4439,9 +4067,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4470,9 +4098,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4501,9 +4129,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 监控过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 监控过程组 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4532,9 +4160,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 规划过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
+            
+            <tag> 规划过程组 </tag>
             
             <tag> 制定项目管理计划 </tag>
             
@@ -4563,11 +4191,383 @@
             
             <tag> PMP </tag>
             
-            <tag> 规划过程组 </tag>
-            
             <tag> 项目整合管理 </tag>
             
+            <tag> 规划过程组 </tag>
+            
             <tag> 制定项目管理计划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>完工尚需绩效指数</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<p>完工尚需绩效指数（TCPI）是一种为了实现特定的管理目标，剩余资源的使用必须达到的成本绩效指标，是完成剩余工作所需的成本与剩余预算之比。<br>TCPI 是指为了实现具体的管理目标（如BAC 或 EAC），剩余工作的实施必须达到的成本绩效指标。<br>如果 BAC 已明显不再可行，则项目经理应考虑使用预测的 EAC。<br>经过批准后，就用 EAC 取代 BAC。基于 BAC 的 TCPI 公式：TCPI &#x3D;（BAC –EV）&#x2F;（BAC – AC）。</p><p>TCPI 的概念可用图 7-13 表示。<br>其计算公式在图的左下角，用剩余工作（BAC 减去 EV）除以剩余资金（可以是 BAC 减去 AC，或 EAC 减去 AC）。</p><p>如果累计 CPI 低于基准（如图 7-13 所示），那么项目的全部剩余工作都应立即按 TCPI（BAC）（图7-13 中最高的那条线）执行，才能确保实际总成本不超过批准的 BAC。<br>至于所要求的这种绩效水平是否可行，就需要综合考虑多种因素（包括风险、项目剩余时间和技术绩效）后才能判断；如果不可行，就需要把项目未来所需的绩效水平调整为如 TCPI（EAC）线所示。基于 EAC 的 TCPI 公式：</p><p>TCPI &#x3D;（BAC – EV）&#x2F;（EAC – AC）。表 7-1 列出了 EVM 的计算公式。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 监控过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 控制成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>控制成本</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>控制成本是监督项目状态，以更新项目成本和管理成本基准变更的过程。</p><p>本过程的主要作用是，在整个项目期间保持对成本基准的维护。</p><p>本过程需要在整个项目期间开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.4控制成本.png"><br>要更新预算，就需要了解截至目前的实际成本。</p><p>只有经过实施整体变更控制过程（见 4.6 节）的批准，才可以增加预算。</p><p>只监督资金的支出，而不考虑由这些支出所完成的工作的价值，对项目没有什么意义，最多只能跟踪资金流。</p><p>所以在成本控制中，应重点分析项目资金支出与相应完成的工作之间的关系。</p><p>有效成本控制的关键在于管理经批准的成本基准。</p><p>项目成本控制包括：</p><ul><li><p>对造成成本基准变更的因素施加影响；</p></li><li><p>确保所有变更请求都得到及时处理；</p></li><li><p>当变更实际发生时，管理这些变更；</p></li><li><p>确保成本支出不超过批准的资金限额，既不超出按时段、按 WBS 组件、按活动分配的限额，也不超出项目总限额；</p></li><li><p>监督成本绩效，找出并分析与成本基准间的偏差；</p></li><li><p>对照资金支出，监督工作绩效；</p></li><li><p>防止在成本或资源使用报告中出现未经批准的变更；</p></li><li><p>向相关方报告所有经批准的变更及其相关成本；</p></li><li><p>设法把预期的成本超支控制在可接受的范围内。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 监控过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 控制成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>估算成本</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>估算成本是对完成项目工作所需资源成本进行近似估算的过程。</p><p>本过程的主要作用是，确定项目所需的资金。</p><p>本过程应根据需要在整个项目期间定期开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.2估算成本.png"><br>成本估算是对完成活动所需资源的可能成本的量化评估，是在某特定时点，根据已知信息所做出的成本预测。</p><p>在估算成本时，需要识别和分析可用于启动与完成项目的备选成本方案；需要权衡备选成本方案并考虑风险，如比较自制成本与外购成本、购买成本与租赁成本及多种资源共享方案，以优化项目成本。</p><p>通常用某种货币单位（如美元、欧元、日元等）进行成本估算，但有时也可采用其他计量单位，如人时数或人天数，以消除通货膨胀的影响，便于成本比较。</p><p>在项目过程中，应该随着更详细信息的呈现和假设条件的验证，对成本估算进行审查和优化。</p><p>在项目生命周期中，项目估算的准确性亦将随着项目的进展而逐步提高。<br>例如，在启动阶段可得出项目的粗略量级估算（Rough Order of Magnitude，ROM），其区间为 −25% 到 +75%；之后，随着信息越来越详细，确定性估算的区间可缩小至 −5% 到 +10%。<br>某些组织已经制定出相应的指南，规定何时进行优化，以及每次优化所要达到的置信度或准确度。</p><p>进行成本估算，应该考虑将向项目收费的全部资源，包括（但不限于）人工、材料、设备、服务、设施，以及一些特殊的成本种类，如通货膨胀补贴、融资成本或应急成本。</p><p>成本估算可在活动层级呈现，也可以汇总形式呈现。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 估算成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>制定预算</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<p>制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。</p><p>本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。</p><p>本过程仅开展一次或仅在项目的预定义点开展。  </p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.3制定预算.png"><p>项目预算包括经批准用于执行项目的全部资金，而成本基准是经过批准且按时间段分配的项目预算，包括应急储备，但不包括管理储备。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>历史信息审核</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/</url>
+      
+        <content type="html"><![CDATA[<p>审核历史信息有助于进行参数估算或类比估算。<br>历史信息可包括各种项目特征（参数），它们用于建立数学模型预测项目总成本。<br>这些数学模型可以是简单的（例如，建造住房的总成本取决于单位面积建造成本），也可以是复杂的（例如，软件开发项目的成本模型中有多个变量，且每个变量又受许多因素的影响）。</p><p>类比和参数模型的成本及准确性可能差别很大。在以下情况下，它们将最为可靠：</p><ul><li>用来建立模型的历史信息准确；</li><li>模型中的参数易于量化；</li><li>模型可以调整，以便对大项目、小项目和各项目阶段都适用。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本基准</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/</url>
+      
+        <content type="html"><![CDATA[<p>成本基准是经过批准的、按时间段分配的项目预算，不包括任何管理储备，只有通过正式的变更控制程序才能变更，用作与实际结果进行比较的依据。<br>成本基准是不同进度活动经批准的预算的总和。</p><p>项目预算和成本基准的各个组成部分，如图 7-8 所示。先汇总各项目活动的成本估算及其应急储备（见 7.2.2.6 节），得到相关工作包的成本；<br>然后汇总各工作包的成本估算及其应急储备，得到控制账户的成本；接着再汇总各控制账户的成本，得到成本基准。<br>由于成本基准中的成本估算与进度活动直接关联，因此就可按时间段分配成本基准，得到一条 S 曲线，如图 7-9 所示。<br>对于使用挣值管理的项目，成本基准指的是绩效测量基准。</p><p>最后，在成本基准之上增加管理储备（见 7.2.2.3 节），得到项目预算。<br>当出现有必要动用管理储备的变更时，则应该在获得变更控制过程的批准之后，把适量的管理储备移入成本基准中。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本汇总</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<p>先把成本估算汇总到 WBS 中的工作包，再由工作包汇总至 WBS 的更高层次（如控制账户），最终得出整个项目的总成本。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>融资</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/</url>
+      
+        <content type="html"><![CDATA[<p>融资是指为项目获取资金。<br>长期的基础设施、工业和公共服务项目通常会寻求外部融资。<br>如果项目使用外部资金，出资实体可能会提出一些必须满足的要求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>资金限制平衡</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/</url>
+      
+        <content type="html"><![CDATA[<p>应该根据对项目资金的任何限制，来平衡资金支出。<br>如果发现资金限制与计划支出之间的差异，则可能需要调整工作的进度计划，以平衡资金支出水平。<br>这可以通过在项目进度计划中添加强制日期来实现。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>项目资金需求</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/</url>
+      
+        <content type="html"><![CDATA[<p>根据成本基准，确定总资金需求和阶段性（如季度或年度）资金需求。<br>成本基准中既包括预计支出及预计债务。<br>项目资金通常以增量的方式投入，并且可能是非均衡的，呈现出图 7-9 中所示的阶梯状。</p><p>如果有管理储备，则总资金需求等于成本基准加管理储备。<br>在资金需求文件中，也可说明资金来源。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本管理计划</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>成本管理计划是项目管理计划的组成部分，描述将如何规划、安排和控制项目成本。<br>成本管理过程及其工具与技术应记录在成本管理计划中。</p><p>例如，在成本管理计划中规定：</p><ul><li>计量单位。需要规定每种资源的计量单位，例如用于测量时间的人时数、人天数或周数，用于计量数量的米、升、吨、千米或立方码，或者用货币表示的总价。</li><li>精确度。根据活动范围和项目规模，设定成本估算向上或向下取整的程度（例如 995.59 美元取整为 1,000 美元）。</li><li>准确度。为活动成本估算规定一个可接受的区间（如 ±10%），其中可能包括一定数量的应急储备。</li><li>组织程序链接。工作分解结构（见 5.4 节）为成本管理计划提供了框架，以便据此规范地开展成本估算、预算和控制。在项目成本核算中使用的 WBS 组成部分，称为控制账户（CA），每个控制账户都有唯一的编码或账号，直接与执行组织的会计制度相联系。</li><li>控制临界值。可能需要规定偏差临界值，用于监督成本绩效。它是在需要采取某种措施前，允许出现的最大差异，通常用偏离基准计划的百分数来表示。</li><li>绩效测量规则。需要规定用于绩效测量的挣值管理（EVM）规则。例如，成本管理计划应该：</li><li>定义 WBS 中用于绩效测量的控制账户；</li><li>确定拟用的 EVM 技术（如加权里程碑法、固定公式法、完成百分比法等）；</li><li>规定跟踪方法，以及用于计算项目完工估算（EAC）的 EVM 公式，该公式计算出的结果可用于验证通过自下而上方法得出的完工估算。</li><li>报告格式。需要规定各种成本报告的格式和编制频率。</li><li>其他细节。关于成本管理活动的其他细节包括（但不限于）：</li><li>对战略筹资方案的说明；</li><li>处理汇率波动的程序；</li><li>记录项目成本的程序。<br>关于挣值管理的更多信息，参见《挣值管理实践标准》（第 2 版）[17]。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划成本管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>规划成本管理</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>规划成本管理是确定如何估算、预算、管理、监督和控制项目成本的过程。</p><p>本过程的主要作用是，在整个项目期间为如何管理项目成本提供指南和方向。</p><p>本过程仅开展一次或仅在项目的预定义点开展。</p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.1规划成本管理.png">]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划成本管理 </tag>
             
         </tags>
       
@@ -6949,7 +6949,7 @@
       <link href="/ComfirmedPostionSodukuClues/"/>
       <url>/ComfirmedPostionSodukuClues/</url>
       
-        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>在元旦之前，本想炫技生成漂亮的数独图案的题目然后发在朋友圈祝朋友们节日快乐。可惜是技术实在不过关。</p><h1 id="数独图形"><a href="#数独图形" class="headerlink" title="数独图形"></a>数独图形</h1><p>在资深的数独迷眼里,标准数独是指通过盘面上的所有提示数字，有且仅有唯一解。<br>以下四个图形，虽说有“元旦快乐”的四个字样，但是并不具备唯一解。  </p><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/元初始状态.png"></div><div style="float:right;width:400px"><img src="/photos/images/旦初始状态.png"></div></div><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/快初始状态.png"></div><div style="float:right;width:400px"><img src="/photos/images/乐初始状态.png"></div></div><p>我们可以经由DLX算法可以快速得知<br>以上“元旦快乐”四个数字的可能解的个数是分别是512,8388,66,285。</p><h1 id="标准数独的基本条件"><a href="#标准数独的基本条件" class="headerlink" title="标准数独的基本条件"></a>标准数独的基本条件</h1><blockquote><p>盘面至少<strong>17</strong>个数字。<br>每一大行中没有两个空行,即第一，二，三行必须有两行存在数字。<br>每一大列中没有两个空列,即第一，二，三列必须有两列存在数字。<br>盘面至少有<strong>8</strong>个不同的已知数字。<br>即<strong>元</strong>字的r3c8会有个<strong>2</strong>的存在是为了避免第一和第三行可以互换,不满足数独唯一性的必要条件。</p></blockquote><h1 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h1><p>以元字的表达式为例</p><figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 元表达式</span></span><br><span class="line"><span class="keyword">var</span> before = <span class="keyword">new</span> <span class="type">DanceLink</span>().solution_count(<span class="string">&quot;000000000001234500000000020134659782000308000000402000000703004009006007070001358&quot;</span>);</span><br><span class="line"><span class="comment">// 元的第一个已知数据和第二个已知数据交换</span></span><br><span class="line"><span class="keyword">var</span> after  = <span class="keyword">new</span> <span class="type">DanceLink</span>().solution_count(<span class="string">&quot;000000000002134500000000020134659782000308000000402000000703004009006007070001358&quot;</span>);</span><br></pre></td></tr></table></figure><p>输出的结果是</p><figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">before</span> <span class="operator">=</span> <span class="number">512</span><span class="comment">;</span></span><br><span class="line"><span class="attribute">after</span>  <span class="operator">=</span> <span class="number">312</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><p>所以最终解可以由after的表达式进行进一步的两两交换去生成。<br>由因为A的已知数据是30个，所以位置的交换有30*29&#x2F;2&#x3D;435种。<br>整个交换的执行流程如下：<br>1、建立一个尝试字典集tryDic,键是数独的表达式,值是数独的结果的可能个数。<br>2、30个位置进行组合，生成435个包含两个位置的集合。<br>3、数独表达式交换前后分别记为before,after,解的个数分别记作b,a,将before,after及其结果数存入tryDic。<br>4、对435个集合进行遍历,若a!&#x3D;0,且a小于b,则before&#x3D;after;<br>5、很有可能第一轮排列组合之后,a并不等于1;没有找到唯一解的数独表达式,选取tryDic的结果个数最多的字符串S出来作为下一轮循环的因子。<br>6、循环执行1~5的过程，<strong>注意步骤5中的字符串S应该是过往循环中没有使用过的，否则会陷入死循环。</strong></p><p>书上以</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">001000009000200046007080000000001000003000200000500000000030800960007000200000500</span><br></pre></td></tr></table></figure><p>这个18个提示数的数独作为例子作为讲解，我也通过以上流程生成了一个18个提示数的标准数独。</p><blockquote><p>借助书上的说法,除了聪明和运气，我们别无他法。</p></blockquote><h1 id="标准数独-元旦快乐"><a href="#标准数独-元旦快乐" class="headerlink" title="标准数独(元旦快乐)"></a>标准数独(元旦快乐)</h1><p>最终生成的结果如下，难度不大。</p><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/元.png"></div><div style="float:right;width:400px"><img src="/photos/images/旦.png"></div></div><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/快.png"></div><div style="float:right;width:400px"><img src="/photos/images/乐.png"></div></div><h1 id="逆向思维"><a href="#逆向思维" class="headerlink" title="逆向思维"></a>逆向思维</h1><p>由以上位置找固定数独的位置可知，如果标准数独去掉某个提示数，不在构成唯一解，但是满足构成标准数独的基本条件,则可能通过两两交换的生成一个新的标准数独。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://www.cnblogs.com/zhao-yi/p/8533035.html">C#实现排列、组合</a></li><li><a href="https://github.com/ddabb/soduku">C#源码</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>在元旦之前，本想炫技生成漂亮的数独图案的题目然后发在朋友圈祝朋友们节日快乐。可惜是技术实在不过关。</p><h1 id="数独图形"><a href="#数独图形" class="headerlink" title="数独图形"></a>数独图形</h1><p>在资深的数独迷眼里,标准数独是指通过盘面上的所有提示数字，有且仅有唯一解。<br>以下四个图形，虽说有“元旦快乐”的四个字样，但是并不具备唯一解。  </p><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/元初始状态.png"></div><div style="float:right;width:400px"><img src="/photos/images/旦初始状态.png"></div></div><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/快初始状态.png"></div><div style="float:right;width:400px"><img src="/photos/images/乐初始状态.png"></div></div><p>我们可以经由DLX算法可以快速得知<br>以上“元旦快乐”四个数字的可能解的个数是分别是512,8388,66,285。</p><h1 id="标准数独的基本条件"><a href="#标准数独的基本条件" class="headerlink" title="标准数独的基本条件"></a>标准数独的基本条件</h1><blockquote><p>盘面至少<strong>17</strong>个数字。<br>每一大行中没有两个空行,即第一，二，三行必须有两行存在数字。<br>每一大列中没有两个空列,即第一，二，三列必须有两列存在数字。<br>盘面至少有<strong>8</strong>个不同的已知数字。<br>即<strong>元</strong>字的r3c8会有个<strong>2</strong>的存在是为了避免第一和第三行可以互换,不满足数独唯一性的必要条件。</p></blockquote><h1 id="求解过程"><a href="#求解过程" class="headerlink" title="求解过程"></a>求解过程</h1><p>以元字的表达式为例</p><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 元表达式</span></span><br><span class="line"><span class="keyword">var</span> <span class="keyword">before</span> = <span class="keyword">new</span> DanceLink()<span class="variable">.solution_count</span>(<span class="string">&quot;000000000001234500000000020134659782000308000000402000000703004009006007070001358&quot;</span>);</span><br><span class="line"><span class="comment">// 元的第一个已知数据和第二个已知数据交换</span></span><br><span class="line"><span class="keyword">var</span> after  = <span class="keyword">new</span> DanceLink()<span class="variable">.solution_count</span>(<span class="string">&quot;000000000002134500000000020134659782000308000000402000000703004009006007070001358&quot;</span>);</span><br></pre></td></tr></table></figure><p>输出的结果是</p><figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">before</span> <span class="operator">=</span> <span class="number">512</span><span class="comment">;</span></span><br><span class="line"><span class="attribute">after</span>  <span class="operator">=</span> <span class="number">312</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><p>所以最终解可以由after的表达式进行进一步的两两交换去生成。<br>由因为A的已知数据是30个，所以位置的交换有30*29&#x2F;2&#x3D;435种。<br>整个交换的执行流程如下：<br>1、建立一个尝试字典集tryDic,键是数独的表达式,值是数独的结果的可能个数。<br>2、30个位置进行组合，生成435个包含两个位置的集合。<br>3、数独表达式交换前后分别记为before,after,解的个数分别记作b,a,将before,after及其结果数存入tryDic。<br>4、对435个集合进行遍历,若a!&#x3D;0,且a小于b,则before&#x3D;after;<br>5、很有可能第一轮排列组合之后,a并不等于1;没有找到唯一解的数独表达式,选取tryDic的结果个数最多的字符串S出来作为下一轮循环的因子。<br>6、循环执行1~5的过程，<strong>注意步骤5中的字符串S应该是过往循环中没有使用过的，否则会陷入死循环。</strong></p><p>书上以</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">001000009000200046007080000000001000003000200000500000000030800960007000200000500</span><br></pre></td></tr></table></figure><p>这个18个提示数的数独作为例子作为讲解，我也通过以上流程生成了一个18个提示数的标准数独。</p><blockquote><p>借助书上的说法,除了聪明和运气，我们别无他法。</p></blockquote><h1 id="标准数独-元旦快乐"><a href="#标准数独-元旦快乐" class="headerlink" title="标准数独(元旦快乐)"></a>标准数独(元旦快乐)</h1><p>最终生成的结果如下，难度不大。</p><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/元.png"></div><div style="float:right;width:400px"><img src="/photos/images/旦.png"></div></div><div style="clear:both; width:800px"><div style="float:left;width:400px"> <img src="/photos/images/快.png"></div><div style="float:right;width:400px"><img src="/photos/images/乐.png"></div></div><h1 id="逆向思维"><a href="#逆向思维" class="headerlink" title="逆向思维"></a>逆向思维</h1><p>由以上位置找固定数独的位置可知，如果标准数独去掉某个提示数，不在构成唯一解，但是满足构成标准数独的基本条件,则可能通过两两交换的生成一个新的标准数独。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://www.cnblogs.com/zhao-yi/p/8533035.html">C#实现排列、组合</a></li><li><a href="https://github.com/ddabb/soduku">C#源码</a></li></ul>]]></content>
       
       
       <categories>
@@ -7061,7 +7061,7 @@
       <link href="/python-print-heart/"/>
       <url>/python-print-heart/</url>
       
-        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>该文算是python版的”Hello world”初探，故作相关的记录。<br>环境准备:Visual Studio 2017,python</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="爱心一"><a href="#爱心一" class="headerlink" title="爱心一"></a>爱心一</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">import</span> numpy as np</span><br><span class="line"><span class="attribute">import</span> matplotlib.pyplot as plt</span><br><span class="line"></span><br><span class="line"><span class="attribute">x_coords</span> = np.linspace(- <span class="number">100</span>, <span class="number">100</span>, <span class="number">500</span>)</span><br><span class="line"><span class="attribute">y_coords</span> = np.linspace(- <span class="number">100</span>, <span class="number">100</span>, <span class="number">500</span>)</span><br><span class="line"><span class="attribute">points</span> =<span class="meta"> []</span></span><br><span class="line"></span><br><span class="line"><span class="attribute">for</span> y in y_coords:</span><br><span class="line"> <span class="attribute">for</span> x in x_coords:</span><br><span class="line">    <span class="attribute">if</span>((x* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>+(y* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>- <span class="number">1</span>)** <span class="number">3</span>-(x* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>*(y* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">3</span>&lt;= <span class="number">0</span>:</span><br><span class="line">       <span class="attribute">points</span>.append(&#123; <span class="string">&quot;x&quot;</span>: x, <span class="string">&quot;y&quot;</span>: y&#125;)</span><br><span class="line"></span><br><span class="line"><span class="attribute">heart_x</span> = list(map( lambda point: point[ <span class="string">&quot;x&quot;</span>], points))</span><br><span class="line"><span class="attribute">heart_y</span> = list(map( lambda point: point[ <span class="string">&quot;y&quot;</span>], points))</span><br><span class="line"></span><br><span class="line"><span class="attribute">plt</span>.scatter(heart_x, heart_y, s= <span class="number">10</span>, alpha= <span class="number">0</span>.<span class="number">5</span>)</span><br><span class="line"><span class="attribute">plt</span>.show()</span><br></pre></td></tr></table></figure><p>效果如图<br><img src="/.com//heart1.png" alt="爱心1">  </p><h2 id="爱心二"><a href="#爱心二" class="headerlink" title="爱心二"></a>爱心二</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding:utf-8 -*-</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 画心形圆弧</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hart_arc</span>():</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">200</span>):</span><br><span class="line">        turtle.right(<span class="number">1</span>)</span><br><span class="line">        turtle.forward(<span class="number">2</span>)</span><br><span class="line"> </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">move_pen_position</span>(<span class="params">x, y</span>):</span><br><span class="line">    turtle.hideturtle()     <span class="comment"># 隐藏画笔（先）</span></span><br><span class="line">    turtle.up()     <span class="comment"># 提笔</span></span><br><span class="line">    turtle.goto(x, y)    <span class="comment"># 移动画笔到指定起始坐标（窗口中心为0,0）</span></span><br><span class="line">    turtle.down()   <span class="comment"># 下笔</span></span><br><span class="line">    turtle.showturtle()     <span class="comment"># 显示画笔</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">#love = input(&quot;请输入表白话语，默认为‘I Love You’：&quot;)</span></span><br><span class="line"><span class="comment">#signature = input(&quot;请签署你的大名，不填写默认不显示：&quot;)</span></span><br><span class="line"></span><br><span class="line">signature= <span class="string">&#x27;&#x27;</span></span><br><span class="line">love = <span class="string">&#x27;I Love You&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> love == <span class="string">&#x27;&#x27;</span>:</span><br><span class="line">    love = <span class="string">&#x27;I Love You&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 初始化</span></span><br><span class="line">turtle.setup(width=<span class="number">800</span>, height=<span class="number">500</span>)     <span class="comment"># 窗口（画布）大小</span></span><br><span class="line">turtle.color(<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)     <span class="comment"># 画笔颜色</span></span><br><span class="line">turtle.pensize(<span class="number">3</span>)       <span class="comment"># 画笔粗细</span></span><br><span class="line">turtle.speed(<span class="number">1</span>)     <span class="comment"># 描绘速度</span></span><br><span class="line"><span class="comment"># 初始化画笔起始坐标</span></span><br><span class="line">move_pen_position(x=<span class="number">0</span>,y=-<span class="number">180</span>)   <span class="comment"># 移动画笔位置</span></span><br><span class="line">turtle.left(<span class="number">140</span>)    <span class="comment"># 向左旋转140度</span></span><br><span class="line"> </span><br><span class="line">turtle.begin_fill()     <span class="comment"># 标记背景填充位置</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 画心形直线（ 左下方 ）</span></span><br><span class="line">turtle.forward(<span class="number">224</span>)    <span class="comment"># 向前移动画笔，长度为224</span></span><br><span class="line"><span class="comment"># 画爱心圆弧</span></span><br><span class="line">hart_arc()      <span class="comment"># 左侧圆弧</span></span><br><span class="line">turtle.left(<span class="number">120</span>)    <span class="comment"># 调整画笔角度</span></span><br><span class="line">hart_arc()      <span class="comment"># 右侧圆弧</span></span><br><span class="line"><span class="comment"># 画心形直线（ 右下方 ）</span></span><br><span class="line">turtle.forward(<span class="number">224</span>)</span><br><span class="line"> </span><br><span class="line">turtle.end_fill()       <span class="comment"># 标记背景填充结束位置</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 在心形中写上表白话语</span></span><br><span class="line">move_pen_position(<span class="number">0</span>,<span class="number">0</span>)      <span class="comment"># 表白语位置</span></span><br><span class="line">turtle.hideturtle()     <span class="comment"># 隐藏画笔</span></span><br><span class="line">turtle.color(<span class="string">&#x27;#CD5C5C&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)      <span class="comment"># 字体颜色</span></span><br><span class="line"><span class="comment"># font:设定字体、尺寸（电脑下存在的字体都可设置）  align:中心对齐</span></span><br><span class="line">turtle.write(love, font=(<span class="string">&#x27;Arial&#x27;</span>, <span class="number">30</span>, <span class="string">&#x27;bold&#x27;</span>), align=<span class="string">&quot;center&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 签写署名</span></span><br><span class="line"><span class="keyword">if</span> signature != <span class="string">&#x27;&#x27;</span>:</span><br><span class="line">    turtle.color(<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)</span><br><span class="line">    time.sleep(<span class="number">2</span>)</span><br><span class="line">    move_pen_position(<span class="number">180</span>, -<span class="number">180</span>)</span><br><span class="line">    turtle.hideturtle()  <span class="comment"># 隐藏画笔</span></span><br><span class="line">    turtle.write(signature, font=(<span class="string">&#x27;Arial&#x27;</span>, <span class="number">20</span>), align=<span class="string">&quot;center&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 点击窗口关闭程序</span></span><br><span class="line">window = turtle.Screen()</span><br><span class="line">window.exitonclick()</span><br></pre></td></tr></table></figure><p>效果如下图<br><img src="/.com//heart2.png" alt="爱心2">  </p><h2 id="爱心三"><a href="#爱心三" class="headerlink" title="爱心三"></a>爱心三</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">import matplotlib<span class="selector-class">.pyplot</span> as plt</span><br><span class="line">from matplotlib<span class="selector-class">.font_manager</span> import FontProperties</span><br><span class="line">import numpy as np</span><br><span class="line"></span><br><span class="line">x=np<span class="selector-class">.linspace</span>(-<span class="number">2</span>,<span class="number">2</span>,<span class="number">200</span>)</span><br><span class="line">y1 =np<span class="selector-class">.sqrt</span>(<span class="number">1</span>-np<span class="selector-class">.square</span>(np<span class="selector-class">.fabs</span>(x)-<span class="number">1</span>))</span><br><span class="line">y2 =np<span class="selector-class">.arccos</span>(<span class="number">1</span>-np<span class="selector-class">.fabs</span>(x))-np<span class="selector-class">.pi</span></span><br><span class="line"></span><br><span class="line">plt<span class="selector-class">.plot</span>(x,y1,<span class="string">&#x27;r&#x27;</span>,x,y2,<span class="string">&#x27;r&#x27;</span>)</span><br><span class="line">plt<span class="selector-class">.axis</span>(<span class="selector-attr">[-2.5,2.5,-3.5,1.5]</span>)</span><br><span class="line"></span><br><span class="line">plt<span class="selector-class">.title</span>(<span class="string">&#x27;hello world of python,copy from @andrew&#x27;</span>,fontsize=<span class="number">16</span>)</span><br><span class="line">plt<span class="selector-class">.show</span>()</span><br></pre></td></tr></table></figure><p>效果如下图<br><img src="/.com//heart3.png" alt="爱心3">  </p><h1 id="遇到问题"><a href="#遇到问题" class="headerlink" title="遇到问题"></a>遇到问题</h1><p><strong>在visual studio 2017中命令行执行 pip install numpy 无效</strong><br>在nuget程序包管理器控制台执行即可<br><strong>pip install pyinstaller之后生成的exe无法执行</strong><br>在我电脑上的路径是<strong>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts</strong>,<br>把run.py拷贝到该目录,执行<strong>pyinstaller -F -W p . run.py</strong>解决问题</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/.com//hurt.png" alt="暴击"></p><hr><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://cloud.tencent.com/developer/news/216095">520情人节，用python画个爱心送给你的那个她！</a></li><li><a href="https://www.taitaiblog.com/1314.html">七夕将至，教你用Python绘制爱心，优雅的表白520~</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>该文算是python版的”Hello world”初探，故作相关的记录。<br>环境准备:Visual Studio 2017,python</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="爱心一"><a href="#爱心一" class="headerlink" title="爱心一"></a>爱心一</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">import</span> numpy as np</span><br><span class="line"><span class="attribute">import</span> matplotlib.pyplot as plt</span><br><span class="line"></span><br><span class="line"><span class="attribute">x_coords</span> = np.linspace(- <span class="number">100</span>, <span class="number">100</span>, <span class="number">500</span>)</span><br><span class="line"><span class="attribute">y_coords</span> = np.linspace(- <span class="number">100</span>, <span class="number">100</span>, <span class="number">500</span>)</span><br><span class="line"><span class="attribute">points</span> =<span class="meta"> []</span></span><br><span class="line"></span><br><span class="line"><span class="attribute">for</span> y in y_coords:</span><br><span class="line"> <span class="attribute">for</span> x in x_coords:</span><br><span class="line">    <span class="attribute">if</span>((x* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>+(y* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>- <span class="number">1</span>)** <span class="number">3</span>-(x* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">2</span>*(y* <span class="number">0</span>.<span class="number">03</span>)** <span class="number">3</span>&lt;= <span class="number">0</span>:</span><br><span class="line">       <span class="attribute">points</span>.append(&#123; <span class="string">&quot;x&quot;</span>: x, <span class="string">&quot;y&quot;</span>: y&#125;)</span><br><span class="line"></span><br><span class="line"><span class="attribute">heart_x</span> = list(map( lambda point: point[ <span class="string">&quot;x&quot;</span>], points))</span><br><span class="line"><span class="attribute">heart_y</span> = list(map( lambda point: point[ <span class="string">&quot;y&quot;</span>], points))</span><br><span class="line"></span><br><span class="line"><span class="attribute">plt</span>.scatter(heart_x, heart_y, s= <span class="number">10</span>, alpha= <span class="number">0</span>.<span class="number">5</span>)</span><br><span class="line"><span class="attribute">plt</span>.show()</span><br></pre></td></tr></table></figure><p>效果如图<br><img src="/.com//heart1.png" alt="爱心1">  </p><h2 id="爱心二"><a href="#爱心二" class="headerlink" title="爱心二"></a>爱心二</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="comment"># -*- coding:utf-8 -*-</span></span><br><span class="line"> </span><br><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 画心形圆弧</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">hart_arc</span>():</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">200</span>):</span><br><span class="line">        turtle.right(<span class="number">1</span>)</span><br><span class="line">        turtle.forward(<span class="number">2</span>)</span><br><span class="line"> </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">move_pen_position</span>(<span class="params">x, y</span>):</span><br><span class="line">    turtle.hideturtle()     <span class="comment"># 隐藏画笔（先）</span></span><br><span class="line">    turtle.up()     <span class="comment"># 提笔</span></span><br><span class="line">    turtle.goto(x, y)    <span class="comment"># 移动画笔到指定起始坐标（窗口中心为0,0）</span></span><br><span class="line">    turtle.down()   <span class="comment"># 下笔</span></span><br><span class="line">    turtle.showturtle()     <span class="comment"># 显示画笔</span></span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">#love = input(&quot;请输入表白话语，默认为‘I Love You’：&quot;)</span></span><br><span class="line"><span class="comment">#signature = input(&quot;请签署你的大名，不填写默认不显示：&quot;)</span></span><br><span class="line"></span><br><span class="line">signature= <span class="string">&#x27;&#x27;</span></span><br><span class="line">love = <span class="string">&#x27;I Love You&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> love == <span class="string">&#x27;&#x27;</span>:</span><br><span class="line">    love = <span class="string">&#x27;I Love You&#x27;</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 初始化</span></span><br><span class="line">turtle.setup(width=<span class="number">800</span>, height=<span class="number">500</span>)     <span class="comment"># 窗口（画布）大小</span></span><br><span class="line">turtle.color(<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)     <span class="comment"># 画笔颜色</span></span><br><span class="line">turtle.pensize(<span class="number">3</span>)       <span class="comment"># 画笔粗细</span></span><br><span class="line">turtle.speed(<span class="number">1</span>)     <span class="comment"># 描绘速度</span></span><br><span class="line"><span class="comment"># 初始化画笔起始坐标</span></span><br><span class="line">move_pen_position(x=<span class="number">0</span>,y=-<span class="number">180</span>)   <span class="comment"># 移动画笔位置</span></span><br><span class="line">turtle.left(<span class="number">140</span>)    <span class="comment"># 向左旋转140度</span></span><br><span class="line"> </span><br><span class="line">turtle.begin_fill()     <span class="comment"># 标记背景填充位置</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 画心形直线（ 左下方 ）</span></span><br><span class="line">turtle.forward(<span class="number">224</span>)    <span class="comment"># 向前移动画笔，长度为224</span></span><br><span class="line"><span class="comment"># 画爱心圆弧</span></span><br><span class="line">hart_arc()      <span class="comment"># 左侧圆弧</span></span><br><span class="line">turtle.left(<span class="number">120</span>)    <span class="comment"># 调整画笔角度</span></span><br><span class="line">hart_arc()      <span class="comment"># 右侧圆弧</span></span><br><span class="line"><span class="comment"># 画心形直线（ 右下方 ）</span></span><br><span class="line">turtle.forward(<span class="number">224</span>)</span><br><span class="line"> </span><br><span class="line">turtle.end_fill()       <span class="comment"># 标记背景填充结束位置</span></span><br><span class="line"> </span><br><span class="line"><span class="comment"># 在心形中写上表白话语</span></span><br><span class="line">move_pen_position(<span class="number">0</span>,<span class="number">0</span>)      <span class="comment"># 表白语位置</span></span><br><span class="line">turtle.hideturtle()     <span class="comment"># 隐藏画笔</span></span><br><span class="line">turtle.color(<span class="string">&#x27;#CD5C5C&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)      <span class="comment"># 字体颜色</span></span><br><span class="line"><span class="comment"># font:设定字体、尺寸（电脑下存在的字体都可设置）  align:中心对齐</span></span><br><span class="line">turtle.write(love, font=(<span class="string">&#x27;Arial&#x27;</span>, <span class="number">30</span>, <span class="string">&#x27;bold&#x27;</span>), align=<span class="string">&quot;center&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 签写署名</span></span><br><span class="line"><span class="keyword">if</span> signature != <span class="string">&#x27;&#x27;</span>:</span><br><span class="line">    turtle.color(<span class="string">&#x27;red&#x27;</span>, <span class="string">&#x27;pink&#x27;</span>)</span><br><span class="line">    time.sleep(<span class="number">2</span>)</span><br><span class="line">    move_pen_position(<span class="number">180</span>, -<span class="number">180</span>)</span><br><span class="line">    turtle.hideturtle()  <span class="comment"># 隐藏画笔</span></span><br><span class="line">    turtle.write(signature, font=(<span class="string">&#x27;Arial&#x27;</span>, <span class="number">20</span>), align=<span class="string">&quot;center&quot;</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 点击窗口关闭程序</span></span><br><span class="line">window = turtle.Screen()</span><br><span class="line">window.exitonclick()</span><br></pre></td></tr></table></figure><p>效果如下图<br><img src="/.com//heart2.png" alt="爱心2">  </p><h2 id="爱心三"><a href="#爱心三" class="headerlink" title="爱心三"></a>爱心三</h2><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">import</span> matplotlib.pyplot as plt</span><br><span class="line"><span class="attribute">from</span> matplotlib.font_manager import FontProperties</span><br><span class="line"><span class="attribute">import</span> numpy as np</span><br><span class="line"></span><br><span class="line"><span class="attribute">x</span>=np.linspace(-<span class="number">2</span>,<span class="number">2</span>,<span class="number">200</span>)</span><br><span class="line"><span class="attribute">y1</span> =np.sqrt(<span class="number">1</span>-np.square(np.fabs(x)-<span class="number">1</span>))</span><br><span class="line"><span class="attribute">y2</span> =np.arccos(<span class="number">1</span>-np.fabs(x))-np.pi</span><br><span class="line"></span><br><span class="line"><span class="attribute">plt</span>.plot(x,y1,&#x27;r&#x27;,x,y2,&#x27;r&#x27;)</span><br><span class="line"><span class="attribute">plt</span>.axis([-<span class="number">2</span>.<span class="number">5</span>,<span class="number">2</span>.<span class="number">5</span>,-<span class="number">3</span>.<span class="number">5</span>,<span class="number">1</span>.<span class="number">5</span>])</span><br><span class="line"></span><br><span class="line"><span class="attribute">plt</span>.title(&#x27;hello world of python,copy from @andrew&#x27;,fontsize=<span class="number">16</span>)</span><br><span class="line"><span class="attribute">plt</span>.show()</span><br></pre></td></tr></table></figure><p>效果如下图<br><img src="/.com//heart3.png" alt="爱心3">  </p><h1 id="遇到问题"><a href="#遇到问题" class="headerlink" title="遇到问题"></a>遇到问题</h1><p><strong>在visual studio 2017中命令行执行 pip install numpy 无效</strong><br>在nuget程序包管理器控制台执行即可<br><strong>pip install pyinstaller之后生成的exe无法执行</strong><br>在我电脑上的路径是<strong>C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\Scripts</strong>,<br>把run.py拷贝到该目录,执行<strong>pyinstaller -F -W p . run.py</strong>解决问题</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><img src="/.com//hurt.png" alt="暴击"></p><hr><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://cloud.tencent.com/developer/news/216095">520情人节，用python画个爱心送给你的那个她！</a></li><li><a href="https://www.taitaiblog.com/1314.html">七夕将至，教你用Python绘制爱心，优雅的表白520~</a></li></ul>]]></content>
       
       
       <categories>
@@ -7175,7 +7175,7 @@
       <link href="/Hexo_click_change_text/"/>
       <url>/Hexo_click_change_text/</url>
       
-        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>最近在工作中,有幸发现到了<a href="https://www.cnblogs.com/cang12138/p/8992506.html">C# Aspose.Cells.dll Excel操作总结</a>这篇文章。<br>觉得页面的鼠标点击效果还不错,故F12查看了一下源码,迁移到了个人博客网站上面，下面简单介绍一下实现步骤。</p><blockquote><p>希望原作者不要太介意哈~  </p></blockquote><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>在目录<strong>themes\next\source\js\src</strong>下新建<strong>click_show_text.js</strong>文件，内容如下</p><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//单击显示随机文字</span></span><br><span class="line"><span class="keyword">var</span> a_idx = <span class="number">0</span>;</span><br><span class="line">jQuery(document).ready(<span class="keyword">function</span>(<span class="params">$</span>) &#123;</span><br><span class="line">    $(<span class="string">&quot;body&quot;</span>).click(<span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> a = <span class="keyword">new</span> <span class="built_in">Array</span>(</span><br><span class="line">          <span class="string">&quot;若是不专一，生活把你欺&quot;</span>,</span><br><span class="line">          <span class="string">&quot;活得有点二，倾慕大白菜&quot;</span>,</span><br><span class="line">          <span class="string">&quot;爱好只有三，辣和甜和酸&quot;</span>,</span><br><span class="line">          <span class="string">&quot;生日九月四，吃鱼得吐刺&quot;</span>,</span><br><span class="line">          <span class="string">&quot;广州年有五，喜欢吃排骨&quot;</span>, </span><br><span class="line">          <span class="string">&quot;绰号为十六，断烟不断肉&quot;</span>, </span><br><span class="line">          <span class="string">&quot;年龄二十七，就懂零和一&quot;</span>, </span><br><span class="line">          <span class="string">&quot;身高一米八，身边缺个她&quot;</span>,</span><br><span class="line">          <span class="string">&quot;体重一百九，木有女朋友&quot;</span>,</span><br><span class="line">          <span class="string">&quot;二五得一十，爱就得一世&quot;</span>, </span><br><span class="line">          <span class="string">&quot;智商不够百，不怕有人怼&quot;</span>, </span><br><span class="line">          <span class="string">&quot;弱水有三千，一瓢可成仙&quot;</span>, </span><br><span class="line">          <span class="string">&quot;打赏没过万，可悲又可叹&quot;</span>,</span><br><span class="line">          <span class="string">&quot;赚它一个亿，回家去种地&quot;</span></span><br><span class="line">                );</span><br><span class="line">        <span class="keyword">var</span> <span class="symbol">$i</span> = $(<span class="string">&quot;&lt;span/&gt;&quot;</span>).<span class="built_in">text</span>(a[a_idx]);</span><br><span class="line">        a_idx = (a_idx + <span class="number">1</span>) % a.<span class="built_in">length</span>;</span><br><span class="line">        <span class="keyword">var</span> x = e.pageX,</span><br><span class="line">        y = e.pageY;</span><br><span class="line">        <span class="symbol">$i</span>.css(&#123;</span><br><span class="line">            <span class="string">&quot;z-index&quot;</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="string">&quot;top&quot;</span>: y - <span class="number">20</span>,</span><br><span class="line">            <span class="string">&quot;left&quot;</span>: x,</span><br><span class="line">            <span class="string">&quot;position&quot;</span>: <span class="string">&quot;absolute&quot;</span>,</span><br><span class="line">            <span class="string">&quot;font-weight&quot;</span>: <span class="string">&quot;bold&quot;</span>,</span><br><span class="line">            <span class="string">&quot;color&quot;</span>: <span class="string">&quot;#FF69B4&quot;</span></span><br><span class="line">        &#125;);</span><br><span class="line">        $(<span class="string">&quot;body&quot;</span>).append(<span class="symbol">$i</span>);</span><br><span class="line">        <span class="symbol">$i</span>.animate(&#123;</span><br><span class="line">            <span class="string">&quot;top&quot;</span>: y - <span class="number">180</span>,</span><br><span class="line">            <span class="string">&quot;opacity&quot;</span>: <span class="number">0</span></span><br><span class="line">        &#125;,</span><br><span class="line"><span class="number">3000</span>,</span><br><span class="line"><span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="symbol">$i</span>.remove();</span><br><span class="line">&#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    setTimeout(<span class="string">&#x27;delay()&#x27;</span>, <span class="number">2000</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">delay</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $(<span class="string">&quot;.buryit&quot;</span>).removeAttr(<span class="string">&quot;onclick&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>具体要闪烁的文字，请自行替换。<br>然后在<strong>themes\next\layout\_layout.swig</strong>文件中 ****前添加以下代码</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--单击显示文字--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/src/click_show_text.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>然后hexo clean ，hexo g ，hexo d 即可看到点击效果。</p><blockquote><p>注意：该事件可能和其余鼠标点击效果冲突。</p></blockquote><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>这是我自行做的页面优化，个人感觉还挺不错。</p><hr><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://www.cnblogs.com/cang12138/p/8992506.html">C# Aspose.Cells.dll Excel操作总结</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>最近在工作中,有幸发现到了<a href="https://www.cnblogs.com/cang12138/p/8992506.html">C# Aspose.Cells.dll Excel操作总结</a>这篇文章。<br>觉得页面的鼠标点击效果还不错,故F12查看了一下源码,迁移到了个人博客网站上面，下面简单介绍一下实现步骤。</p><blockquote><p>希望原作者不要太介意哈~  </p></blockquote><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>在目录<strong>themes\next\source\js\src</strong>下新建<strong>click_show_text.js</strong>文件，内容如下</p><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//单击显示随机文字</span></span><br><span class="line"><span class="keyword">var</span> a_idx = <span class="number">0</span>;</span><br><span class="line">jQuery(document).ready(<span class="keyword">function</span>(<span class="params">$</span>) &#123;</span><br><span class="line">    $(<span class="string">&quot;body&quot;</span>).click(<span class="keyword">function</span>(<span class="params">e</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> a = <span class="keyword">new</span> <span class="built_in">Array</span>(</span><br><span class="line">          <span class="string">&quot;若是不专一，生活把你欺&quot;</span>,</span><br><span class="line">          <span class="string">&quot;活得有点二，倾慕大白菜&quot;</span>,</span><br><span class="line">          <span class="string">&quot;爱好只有三，辣和甜和酸&quot;</span>,</span><br><span class="line">          <span class="string">&quot;生日九月四，吃鱼得吐刺&quot;</span>,</span><br><span class="line">          <span class="string">&quot;广州年有五，喜欢吃排骨&quot;</span>, </span><br><span class="line">          <span class="string">&quot;绰号为十六，断烟不断肉&quot;</span>, </span><br><span class="line">          <span class="string">&quot;年龄二十七，就懂零和一&quot;</span>, </span><br><span class="line">          <span class="string">&quot;身高一米八，身边缺个她&quot;</span>,</span><br><span class="line">          <span class="string">&quot;体重一百九，木有女朋友&quot;</span>,</span><br><span class="line">          <span class="string">&quot;二五得一十，爱就得一世&quot;</span>, </span><br><span class="line">          <span class="string">&quot;智商不够百，不怕有人怼&quot;</span>, </span><br><span class="line">          <span class="string">&quot;弱水有三千，一瓢可成仙&quot;</span>, </span><br><span class="line">          <span class="string">&quot;打赏没过万，可悲又可叹&quot;</span>,</span><br><span class="line">          <span class="string">&quot;赚它一个亿，回家去种地&quot;</span></span><br><span class="line">                );</span><br><span class="line">        <span class="keyword">var</span> $i = $(<span class="string">&quot;&lt;span/&gt;&quot;</span>).<span class="built_in">text</span>(a[a_idx]);</span><br><span class="line">        a_idx = (a_idx + <span class="number">1</span>) % a.<span class="built_in">length</span>;</span><br><span class="line">        <span class="keyword">var</span> x = e.pageX,</span><br><span class="line">        y = e.pageY;</span><br><span class="line">        $i.css(&#123;</span><br><span class="line">            <span class="string">&quot;z-index&quot;</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="string">&quot;top&quot;</span>: y - <span class="number">20</span>,</span><br><span class="line">            <span class="string">&quot;left&quot;</span>: x,</span><br><span class="line">            <span class="string">&quot;position&quot;</span>: <span class="string">&quot;absolute&quot;</span>,</span><br><span class="line">            <span class="string">&quot;font-weight&quot;</span>: <span class="string">&quot;bold&quot;</span>,</span><br><span class="line">            <span class="string">&quot;color&quot;</span>: <span class="string">&quot;#FF69B4&quot;</span></span><br><span class="line">        &#125;);</span><br><span class="line">        $(<span class="string">&quot;body&quot;</span>).append($i);</span><br><span class="line">        $i.animate(&#123;</span><br><span class="line">            <span class="string">&quot;top&quot;</span>: y - <span class="number">180</span>,</span><br><span class="line">            <span class="string">&quot;opacity&quot;</span>: <span class="number">0</span></span><br><span class="line">        &#125;,</span><br><span class="line"><span class="number">3000</span>,</span><br><span class="line"><span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $i.remove();</span><br><span class="line">&#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">    setTimeout(<span class="string">&#x27;delay()&#x27;</span>, <span class="number">2000</span>);</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">delay</span>(<span class="params"></span>) &#123;</span><br><span class="line">    $(<span class="string">&quot;.buryit&quot;</span>).removeAttr(<span class="string">&quot;onclick&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>具体要闪烁的文字，请自行替换。<br>然后在<strong>themes\next\layout\_layout.swig</strong>文件中 ****前添加以下代码</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--单击显示文字--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/src/click_show_text.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>然后hexo clean ，hexo g ，hexo d 即可看到点击效果。</p><blockquote><p>注意：该事件可能和其余鼠标点击效果冲突。</p></blockquote><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>这是我自行做的页面优化，个人感觉还挺不错。</p><hr><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul><li><a href="https://www.cnblogs.com/cang12138/p/8992506.html">C# Aspose.Cells.dll Excel操作总结</a></li></ul>]]></content>
       
       
       <categories>
@@ -7362,7 +7362,7 @@
       <link href="/bio/"/>
       <url>/bio/</url>
       
-        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东广州</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#x34;&#49;&#55;&#49;&#52;&#52;&#x34;&#x35;&#x32;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#x34;&#49;&#55;&#49;&#52;&#52;&#x34;&#x35;&#x32;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li></ul><h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><p>广州市睿明计算机科技有限公司<br><a href="http://www.anta.com/">中国（安踏）有限公司</a><br><a href="http://www.boykee.com/">广州市铂铱柯信息科技有限公司</a><br><a href="http://www.homonia.com/">北京和信融慧信息科技有限公司</a>  </p><h1 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h1><p>业务:</p><ul><li>RPA系统的设计开发  </li><li><a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>系统的设计开发  </li><li><a href="https://baike.baidu.com/item/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">ESCM</a>系统的设计开发</li></ul><p>框架：    </p><ul><li>基于<a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>框架的 Web 系统设计开发</li><li>对于前端框架 <a href="http://cn.inspinia.cn/">Inspina</a>、BootStrap、Jquery、<a href="https://www.layui.com/">Layui</a>等有使用经验</li></ul><p>技术：</p><ul><li>webform项目重构及性能调优</li><li>winform项目重构及性能调优</li><li>webapi,webservice</li><li>.net core和gensql结合开发  </li><li>IDE ：VS code,Visual Studio 2017,SSMS</li></ul><p>其他：  </p><ul><li><strong>DB：</strong> 主要使用sqlserver为主,对mysql,PostgreSQL,redis等数据库有基本的了解  </li><li><strong>消息队列：</strong> RabbitMq,Redis  </li><li><strong>开发语言：</strong> 主要使用C#和sql为主,用java、vb、python等语言做过基本功能。  </li><li><strong>版本管理:</strong> 主要使用SVN、Git、VSS</li><li><strong>反编译工具:</strong> dnspy&#x2F;ILSpy，JetBrains dotPeek，.Net Reflector，Telerik JustDecompile</li></ul><h1 id="开发经历"><a href="#开发经历" class="headerlink" title="开发经历"></a>开发经历</h1><h2 id="ISSUE管理系统"><a href="#ISSUE管理系统" class="headerlink" title="ISSUE管理系统"></a>ISSUE管理系统</h2><ul><li><strong>时间：</strong> 一周</li><li><strong>描述：</strong> 统计公司项目的问题，统计分析问题进展情况。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>状态：</strong> 成功上线</li><li><strong>团队规模：</strong> 1人</li><li><strong>总结</strong><br> 该系统基于webform开发。<br> 该系统实现了多人多项目的状态管理,实现了ISSUE单据的assign，日报，周报，发送邮件通知等功能，对公司的项目管理质量有明显的提升，是个轻巧灵活的ISSUE管理系统。<br> 通过该系统掌握了window定时任务，发送邮件等基本功能。<br> 随着工作经验的丰富，发现有tower,jira等工具可以使用,比自己写的ISSUE管理系统相对而言要健壮,美观一些。<br> 该系统算是敏捷开发的一次不错的尝试。</li></ul><h2 id="SqlSever迁移到Mysql项目"><a href="#SqlSever迁移到Mysql项目" class="headerlink" title="SqlSever迁移到Mysql项目"></a>SqlSever迁移到Mysql项目</h2><ul><li><strong>时间：</strong> 一个月</li><li><strong>描述：</strong> 重构项目,目标是实现SqlServer数据库到Mysql数据库的迁移。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 研发人员</li><li><strong>团队规模：</strong> 3人</li><li><strong>状态：</strong> 成功上线</li><li><strong>总结</strong><br> 该系统基于winform开发。<br> 该项目的目标是底层数据库并行支持mysql或者sqlserver,项目目标是600多个sql server的sql语句需要支持mysql版本的实现。<br> 通过该项目对比总结了mysql和sqlserver的语法和字段类型的差异，并温习了策略模式。<br> 因项目时间有限等原因,故没有采取将原生sql重构成EF实现的这种方式,若采用EF实现,可以更加便捷地继续向PostgreSQL等数据库进行迁移。</li></ul><h2 id="搭建个人博客系统"><a href="#搭建个人博客系统" class="headerlink" title="搭建个人博客系统"></a>搭建个人博客系统</h2><ul><li><strong>时间：</strong> 三个月的业余时间</li><li><strong>描述：</strong> 该项目的目标是基于.net core构建一个博客系统,该博客系统具备编辑，分类，标签，评论等功能。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>团队规模：</strong> 1人</li><li><strong>项目状态：</strong> <strong><font color="#FF0000">既有失败,又有成功</font></strong></li><li><strong>总结</strong><br> 该系统基于.netcore开发。<br> 该系统失败的定义是我没有实现基于.netcore搭建出来一套具备编辑，分类，标签，评论等功能的博客系统的这个目标。<br> 该系统成功的部分在于基于该目标,我接触了很多之前没有接触的知识点。比如markdown,.netcore+dbfirst,PostgreSQL开发等等。<br> 在摸索该目标的过程中发现了Hexo这一套可以自己选择主题定制化的博客系统，并基于此搭建了一个属于自己的博客站点——<a href="https://ddabb.github.io/">60分加油站</a>。<br> 该项目的经验是 **<font color="#FF0000">一定要记住项目立项的最重要的目标是什么。</font>**，该项目的主要目标是一个博客系统,而创建一个博客系统的目标是对个人知识进行一个归纳整理，现在已经可以通过Hexo框架对个人知识进行归纳整理，就无需要再制造新的车轮了。</li></ul><h1 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h1><ul><li>个人遵循**”Do not repeat yourself”**原则，想法设法将重复低效的事情交由系统执行。</li><li>认可开源分享理念,混迹于github,oschina等站点,并认为开源促进社会进步。乐于总结和分享个人经验。座右铭——<strong>不接触，不了解；不分享，不成长。</strong></li><li>对算法以及AI等方向比较感兴趣  </li><li>做事专一，热衷于在一个领域持续积累经验并有所作为。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东广州</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#52;&#49;&#x37;&#49;&#52;&#52;&#52;&#x35;&#50;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#109;">&#52;&#49;&#x37;&#49;&#52;&#52;&#52;&#x35;&#50;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#109;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li></ul><h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><p>广州市睿明计算机科技有限公司<br><a href="http://www.anta.com/">中国（安踏）有限公司</a><br><a href="http://www.boykee.com/">广州市铂铱柯信息科技有限公司</a><br><a href="http://www.homonia.com/">北京和信融慧信息科技有限公司</a>  </p><h1 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h1><p>业务:</p><ul><li>RPA系统的设计开发  </li><li><a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>系统的设计开发  </li><li><a href="https://baike.baidu.com/item/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">ESCM</a>系统的设计开发</li></ul><p>框架：    </p><ul><li>基于<a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>框架的 Web 系统设计开发</li><li>对于前端框架 <a href="http://cn.inspinia.cn/">Inspina</a>、BootStrap、Jquery、<a href="https://www.layui.com/">Layui</a>等有使用经验</li></ul><p>技术：</p><ul><li>webform项目重构及性能调优</li><li>winform项目重构及性能调优</li><li>webapi,webservice</li><li>.net core和gensql结合开发  </li><li>IDE ：VS code,Visual Studio 2017,SSMS</li></ul><p>其他：  </p><ul><li><strong>DB：</strong> 主要使用sqlserver为主,对mysql,PostgreSQL,redis等数据库有基本的了解  </li><li><strong>消息队列：</strong> RabbitMq,Redis  </li><li><strong>开发语言：</strong> 主要使用C#和sql为主,用java、vb、python等语言做过基本功能。  </li><li><strong>版本管理:</strong> 主要使用SVN、Git、VSS</li><li><strong>反编译工具:</strong> dnspy&#x2F;ILSpy，JetBrains dotPeek，.Net Reflector，Telerik JustDecompile</li></ul><h1 id="开发经历"><a href="#开发经历" class="headerlink" title="开发经历"></a>开发经历</h1><h2 id="ISSUE管理系统"><a href="#ISSUE管理系统" class="headerlink" title="ISSUE管理系统"></a>ISSUE管理系统</h2><ul><li><strong>时间：</strong> 一周</li><li><strong>描述：</strong> 统计公司项目的问题，统计分析问题进展情况。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>状态：</strong> 成功上线</li><li><strong>团队规模：</strong> 1人</li><li><strong>总结</strong><br> 该系统基于webform开发。<br> 该系统实现了多人多项目的状态管理,实现了ISSUE单据的assign，日报，周报，发送邮件通知等功能，对公司的项目管理质量有明显的提升，是个轻巧灵活的ISSUE管理系统。<br> 通过该系统掌握了window定时任务，发送邮件等基本功能。<br> 随着工作经验的丰富，发现有tower,jira等工具可以使用,比自己写的ISSUE管理系统相对而言要健壮,美观一些。<br> 该系统算是敏捷开发的一次不错的尝试。</li></ul><h2 id="SqlSever迁移到Mysql项目"><a href="#SqlSever迁移到Mysql项目" class="headerlink" title="SqlSever迁移到Mysql项目"></a>SqlSever迁移到Mysql项目</h2><ul><li><strong>时间：</strong> 一个月</li><li><strong>描述：</strong> 重构项目,目标是实现SqlServer数据库到Mysql数据库的迁移。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 研发人员</li><li><strong>团队规模：</strong> 3人</li><li><strong>状态：</strong> 成功上线</li><li><strong>总结</strong><br> 该系统基于winform开发。<br> 该项目的目标是底层数据库并行支持mysql或者sqlserver,项目目标是600多个sql server的sql语句需要支持mysql版本的实现。<br> 通过该项目对比总结了mysql和sqlserver的语法和字段类型的差异，并温习了策略模式。<br> 因项目时间有限等原因,故没有采取将原生sql重构成EF实现的这种方式,若采用EF实现,可以更加便捷地继续向PostgreSQL等数据库进行迁移。</li></ul><h2 id="搭建个人博客系统"><a href="#搭建个人博客系统" class="headerlink" title="搭建个人博客系统"></a>搭建个人博客系统</h2><ul><li><strong>时间：</strong> 三个月的业余时间</li><li><strong>描述：</strong> 该项目的目标是基于.net core构建一个博客系统,该博客系统具备编辑，分类，标签，评论等功能。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>团队规模：</strong> 1人</li><li><strong>项目状态：</strong> <strong><font color="#FF0000">既有失败,又有成功</font></strong></li><li><strong>总结</strong><br> 该系统基于.netcore开发。<br> 该系统失败的定义是我没有实现基于.netcore搭建出来一套具备编辑，分类，标签，评论等功能的博客系统的这个目标。<br> 该系统成功的部分在于基于该目标,我接触了很多之前没有接触的知识点。比如markdown,.netcore+dbfirst,PostgreSQL开发等等。<br> 在摸索该目标的过程中发现了Hexo这一套可以自己选择主题定制化的博客系统，并基于此搭建了一个属于自己的博客站点——<a href="https://ddabb.github.io/">60分加油站</a>。<br> 该项目的经验是 **<font color="#FF0000">一定要记住项目立项的最重要的目标是什么。</font>**，该项目的主要目标是一个博客系统,而创建一个博客系统的目标是对个人知识进行一个归纳整理，现在已经可以通过Hexo框架对个人知识进行归纳整理，就无需要再制造新的车轮了。</li></ul><h1 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h1><ul><li>个人遵循**”Do not repeat yourself”**原则，想法设法将重复低效的事情交由系统执行。</li><li>认可开源分享理念,混迹于github,oschina等站点,并认为开源促进社会进步。乐于总结和分享个人经验。座右铭——<strong>不接触，不了解；不分享，不成长。</strong></li><li>对算法以及AI等方向比较感兴趣  </li><li>做事专一，热衷于在一个领域持续积累经验并有所作为。</li></ul>]]></content>
       
       
       
@@ -7381,7 +7381,7 @@
       <link href="/contactme/"/>
       <url>/contactme/</url>
       
-        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东深圳</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#49;&#48;&#49;&#x31;&#x38;&#x38;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#49;&#48;&#49;&#x31;&#x38;&#x38;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li><li><strong>个人网站</strong> <a href="https://www.60points.com/">https://www.60points.com</a></li><li><strong>个人技能</strong> 微信小程序,C#</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东深圳</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#49;&#48;&#49;&#x31;&#x38;&#56;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;">&#49;&#48;&#49;&#x31;&#x38;&#56;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li><li><strong>个人网站</strong> <a href="https://www.60points.com/">https://www.60points.com</a></li><li><strong>个人技能</strong> 微信小程序,C#</li></ul>]]></content>
       
       
       <categories>
@@ -7464,7 +7464,7 @@
       <link href="/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2018%E5%B9%B4%E8%BF%87%E7%A8%8B%E7%89%88%E6%9C%AC/"/>
       <url>/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2018%E5%B9%B4%E8%BF%87%E7%A8%8B%E7%89%88%E6%9C%AC/</url>
       
-        <content type="html"><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>假设开始人狼羊菜都是在A岸，目的是将人狼羊菜运输到B岸。<br>人,狼,羊，菜在A岸的标识为0,在B岸的标识位为1。经过枚举可以得出16种状态中不符合的有6种。<br>如图所示</p><p><img src="/.com//%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C%E7%8A%B6%E6%80%81%E5%9B%BE.png" alt="人狼羊菜状态图"></p><p>根据以上描述的状态模式,可以将问题转化为  </p><ul><li>判断运输的终止状态是否合法</li><li>判断人和羊是否在一侧</li><li>判断人和菜是否在一侧</li><li>判断人和狼是否在一侧</li><li>执行人独自过河的动作</li><li>执行人和羊一起过河的动作</li><li>执行人和狼一起过河的动作</li><li>执行人和菜一起过河的动作</li></ul><p>新建MoveClass类</p><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人狼羊菜运输类</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">MoveClass</span></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>依次对应的函数如下</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 状态合法</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsVaild(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return <span class="keyword">state</span> != <span class="number">3</span> &amp;&amp; !(<span class="keyword">state</span> &gt;= <span class="number">6</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt;= 9) &amp;&amp; state != 12;</span></span><br><span class="line"><span class="variable">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和羊在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithSheep(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return ((<span class="keyword">state</span> / <span class="number">2</span>) % <span class="number">2</span> == <span class="number">0</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt; 8) || ((state / 2) % 2 == 1 &amp;&amp; state &gt;</span>= <span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和菜在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithGreens(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return <span class="keyword">state</span> % <span class="number">2</span> == <span class="number">0</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt; 8 || state % 2 == 1 &amp;&amp; state &gt;</span>= <span class="number">8</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和狼在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithWolf(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return !(<span class="keyword">state</span> &gt;= <span class="number">4</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt;= 11);</span></span><br><span class="line"><span class="variable">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 只身一人过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePerson</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">8</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带羊过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithSheep</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">10</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带狼过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithWolf</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">12</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带菜过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithGreens</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>主要的逻辑函数</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">public void Move()</span><br><span class="line">&#123;</span><br><span class="line">int <span class="keyword">state</span> = <span class="number">0</span>, tempState;</span><br><span class="line">int EndState = <span class="number">15</span>;</span><br><span class="line">while (<span class="keyword">state</span> != EndState)</span><br><span class="line">&#123;</span><br><span class="line">    tempState = MovePerson(<span class="keyword">state</span>);</span><br><span class="line">    if (IsVaild(tempState))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">state</span> = tempState;</span><br><span class="line">        Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人独自一人从A岸到达B岸&quot;</span> : <span class="string">&quot;人独自一人从B岸到达A岸&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithSheep(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithSheep(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带羊从A岸到达B岸&quot;</span> : <span class="string">&quot;人带羊从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithWolf(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithWolf(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带狼从A岸到达B岸&quot;</span> : <span class="string">&quot;人带狼从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithGreens(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithGreens(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带菜从A岸到达B岸&quot;</span> : <span class="string">&quot;人带菜从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>执行以上逻辑函数</p><figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Console.WriteLine(<span class="string">&quot;MoveClass 开始&quot;</span>)<span class="comment">;</span></span><br><span class="line">new MoveClass().Move()<span class="comment">;</span></span><br><span class="line">Console.WriteLine(<span class="string">&quot;MoveClass 结束&quot;</span>)<span class="comment">;</span></span><br><span class="line">Console.ReadKey()<span class="comment">;</span></span><br></pre></td></tr></table></figure><p>最终运行结果如下:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">MoveClass 开始</span><br><span class="line">人带羊从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人独自一人从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带狼从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人带羊从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带菜从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人独自一人从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带羊从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">MoveClass 结束</span><br></pre></td></tr></table></figure><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://ddabb.github.io/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2018%E5%B9%B4%E5%AF%B9%E8%B1%A1%E7%89%88%E6%9C%AC/">人狼羊菜2018年对象版本</a></li><li><a href="https://ddabb.github.io/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2012%E5%B9%B4%E7%89%88%E6%9C%AC/">人狼羊菜2012年版本</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="序"><a href="#序" class="headerlink" title="序"></a>序</h2><h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>假设开始人狼羊菜都是在A岸，目的是将人狼羊菜运输到B岸。<br>人,狼,羊，菜在A岸的标识为0,在B岸的标识位为1。经过枚举可以得出16种状态中不符合的有6种。<br>如图所示</p><p><img src="/.com//%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C%E7%8A%B6%E6%80%81%E5%9B%BE.png" alt="人狼羊菜状态图"></p><p>根据以上描述的状态模式,可以将问题转化为  </p><ul><li>判断运输的终止状态是否合法</li><li>判断人和羊是否在一侧</li><li>判断人和菜是否在一侧</li><li>判断人和狼是否在一侧</li><li>执行人独自过河的动作</li><li>执行人和羊一起过河的动作</li><li>执行人和狼一起过河的动作</li><li>执行人和菜一起过河的动作</li></ul><p>新建MoveClass类</p><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//<span class="regexp">/ &lt;summary&gt;</span></span><br><span class="line"><span class="regexp">/</span><span class="regexp">//</span> 人狼羊菜运输类</span><br><span class="line">//<span class="regexp">/ &lt;/summar</span><span class="keyword">y</span>&gt;</span><br><span class="line">public <span class="class"><span class="keyword">class</span> <span class="title">MoveClass</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>依次对应的函数如下</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 状态合法</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsVaild(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return <span class="keyword">state</span> != <span class="number">3</span> &amp;&amp; !(<span class="keyword">state</span> &gt;= <span class="number">6</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt;= 9) &amp;&amp; state != 12;</span></span><br><span class="line"><span class="variable">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和羊在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithSheep(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return ((<span class="keyword">state</span> / <span class="number">2</span>) % <span class="number">2</span> == <span class="number">0</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt; 8) || ((state / 2) % 2 == 1 &amp;&amp; state &gt;</span>= <span class="number">8</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和菜在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithGreens(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return <span class="keyword">state</span> % <span class="number">2</span> == <span class="number">0</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt; 8 || state % 2 == 1 &amp;&amp; state &gt;</span>= <span class="number">8</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">/// <span class="variable">&lt;summary&gt;</span></span><br><span class="line">/// 人和狼在一起返回真</span><br><span class="line">/// &lt;/summary&gt;</span><br><span class="line">/// <span class="variable">&lt;param name=&quot;state&quot;&gt;</span>&lt;/param&gt;</span><br><span class="line">/// <span class="variable">&lt;returns&gt;</span>&lt;/returns&gt;</span><br><span class="line">public bool IsPeopleWithWolf(int <span class="keyword">state</span>)</span><br><span class="line">&#123;</span><br><span class="line">    return !(<span class="keyword">state</span> &gt;= <span class="number">4</span> &amp;&amp; <span class="keyword">state</span> <span class="variable">&lt;= 11);</span></span><br><span class="line"><span class="variable">&#125;</span></span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 只身一人过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePerson</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">8</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带羊过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithSheep</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">10</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带狼过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithWolf</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">12</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 人带菜过河</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;param name=&quot;state&quot;&gt;</span><span class="doctag">&lt;/param&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;returns&gt;</span><span class="doctag">&lt;/returns&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="built_in">int</span> <span class="title">MovePersonWithGreens</span>(<span class="params"><span class="built_in">int</span> state</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">return</span> state ^ <span class="number">9</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>主要的逻辑函数</p><figure class="highlight pf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line">public void Move()</span><br><span class="line">&#123;</span><br><span class="line">int <span class="keyword">state</span> = <span class="number">0</span>, tempState;</span><br><span class="line">int EndState = <span class="number">15</span>;</span><br><span class="line">while (<span class="keyword">state</span> != EndState)</span><br><span class="line">&#123;</span><br><span class="line">    tempState = MovePerson(<span class="keyword">state</span>);</span><br><span class="line">    if (IsVaild(tempState))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">state</span> = tempState;</span><br><span class="line">        Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人独自一人从A岸到达B岸&quot;</span> : <span class="string">&quot;人独自一人从B岸到达A岸&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithSheep(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithSheep(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带羊从A岸到达B岸&quot;</span> : <span class="string">&quot;人带羊从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithWolf(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithWolf(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带狼从A岸到达B岸&quot;</span> : <span class="string">&quot;人带狼从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (IsPeopleWithGreens(<span class="keyword">state</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        tempState = MovePersonWithGreens(<span class="keyword">state</span>);</span><br><span class="line">        if (IsVaild(tempState))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">state</span> = tempState;</span><br><span class="line">            Console.WriteLine(<span class="keyword">state</span> &gt; <span class="number">8</span> ? <span class="string">&quot;人带菜从A岸到达B岸&quot;</span> : <span class="string">&quot;人带菜从B岸到达A岸&quot;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>执行以上逻辑函数</p><figure class="highlight abnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Console.WriteLine(<span class="string">&quot;MoveClass 开始&quot;</span>)<span class="comment">;</span></span><br><span class="line">new MoveClass().Move()<span class="comment">;</span></span><br><span class="line">Console.WriteLine(<span class="string">&quot;MoveClass 结束&quot;</span>)<span class="comment">;</span></span><br><span class="line">Console.ReadKey()<span class="comment">;</span></span><br></pre></td></tr></table></figure><p>最终运行结果如下:</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">MoveClass 开始</span><br><span class="line">人带羊从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人独自一人从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带狼从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人带羊从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带菜从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">人独自一人从<span class="selector-tag">B</span>岸到达<span class="selector-tag">A</span>岸</span><br><span class="line">人带羊从<span class="selector-tag">A</span>岸到达<span class="selector-tag">B</span>岸</span><br><span class="line">MoveClass 结束</span><br></pre></td></tr></table></figure><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://ddabb.github.io/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2018%E5%B9%B4%E5%AF%B9%E8%B1%A1%E7%89%88%E6%9C%AC/">人狼羊菜2018年对象版本</a></li><li><a href="https://ddabb.github.io/%E4%BA%BA%E7%8B%BC%E7%BE%8A%E8%8F%9C2012%E5%B9%B4%E7%89%88%E6%9C%AC/">人狼羊菜2012年版本</a></li></ul>]]></content>
       
       
       <categories>
