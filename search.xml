@@ -386,6 +386,37 @@
     
     
     <entry>
+      <title>控制资源</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<p>控制资源是确保按计划为项目分配实物资源，以及根据资源使用计划监督资源实际使用情况，并采取必要纠正措施的过程。<br>本过程的主要作用是，确保所分配的资源适时适地可用于项目，且在不再需要时被释放。<br>本过程需要在整个项目期间开展。<br>应在所有项目阶段和整个项目生命周期期间持续开展控制资源过程，且适时、适地和适量地分配和释放资源，使项目能够持续进行。<br>控制资源过程关注实物资源，例如设备、材料、设施和基础设施。管理团队过程关注团队成员。  </p><p>本节讨论的控制资源技术是项目中最常用的，而在特定项目或应用领域中，还可采用许多其他控制资源技术。  </p><p>更新资源分配时，需要了解已使用的资源和还需要获取的资源。为此，应审查至今为止的资源使用情况。控制资源过程关注：   </p><ul><li>监督资源支出；</li><li>及时识别和处理资源缺乏&#x2F;剩余情况；</li><li>确保根据计划和项目需求使用和释放资源；</li><li>在出现资源相关问题时通知相应的相关方；</li><li>影响可以导致资源使用变更的因素；</li><li>在变更实际发生时对其进行管理。</li></ul><p>进度基准或成本基准的任何变更，都必须经过实施整体变更控制过程的审批。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 监控过程组 </tag>
+            
+            <tag> 项目资源管理 </tag>
+            
+            <tag> 控制资源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>资源日历</title>
       <link href="/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%8E%B7%E5%8F%96%E8%B5%84%E6%BA%90/%E8%B5%84%E6%BA%90%E6%97%A5%E5%8E%86/"/>
       <url>/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%8E%B7%E5%8F%96%E8%B5%84%E6%BA%90/%E8%B5%84%E6%BA%90%E6%97%A5%E5%8E%86/</url>
@@ -471,37 +502,6 @@
             <tag> 项目资源管理 </tag>
             
             <tag> 获取资源 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>控制资源</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/%E6%8E%A7%E5%88%B6%E8%B5%84%E6%BA%90/</url>
-      
-        <content type="html"><![CDATA[<p>控制资源是确保按计划为项目分配实物资源，以及根据资源使用计划监督资源实际使用情况，并采取必要纠正措施的过程。<br>本过程的主要作用是，确保所分配的资源适时适地可用于项目，且在不再需要时被释放。<br>本过程需要在整个项目期间开展。<br>应在所有项目阶段和整个项目生命周期期间持续开展控制资源过程，且适时、适地和适量地分配和释放资源，使项目能够持续进行。<br>控制资源过程关注实物资源，例如设备、材料、设施和基础设施。管理团队过程关注团队成员。  </p><p>本节讨论的控制资源技术是项目中最常用的，而在特定项目或应用领域中，还可采用许多其他控制资源技术。  </p><p>更新资源分配时，需要了解已使用的资源和还需要获取的资源。为此，应审查至今为止的资源使用情况。控制资源过程关注：   </p><ul><li>监督资源支出；</li><li>及时识别和处理资源缺乏&#x2F;剩余情况；</li><li>确保根据计划和项目需求使用和释放资源；</li><li>在出现资源相关问题时通知相应的相关方；</li><li>影响可以导致资源使用变更的因素；</li><li>在变更实际发生时对其进行管理。</li></ul><p>进度基准或成本基准的任何变更，都必须经过实施整体变更控制过程的审批。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 监控过程组 </tag>
-            
-            <tag> 项目资源管理 </tag>
-            
-            <tag> 控制资源 </tag>
             
         </tags>
       
@@ -3398,6 +3398,378 @@
     
     
     <entry>
+      <title>完工尚需绩效指数</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/</url>
+      
+        <content type="html"><![CDATA[<p>完工尚需绩效指数（TCPI）是一种为了实现特定的管理目标，剩余资源的使用必须达到的成本绩效指标，是完成剩余工作所需的成本与剩余预算之比。<br>TCPI 是指为了实现具体的管理目标（如BAC 或 EAC），剩余工作的实施必须达到的成本绩效指标。<br>如果 BAC 已明显不再可行，则项目经理应考虑使用预测的 EAC。<br>经过批准后，就用 EAC 取代 BAC。基于 BAC 的 TCPI 公式：TCPI &#x3D;（BAC –EV）&#x2F;（BAC – AC）。</p><p>TCPI 的概念可用图 7-13 表示。<br>其计算公式在图的左下角，用剩余工作（BAC 减去 EV）除以剩余资金（可以是 BAC 减去 AC，或 EAC 减去 AC）。</p><p>如果累计 CPI 低于基准（如图 7-13 所示），那么项目的全部剩余工作都应立即按 TCPI（BAC）（图7-13 中最高的那条线）执行，才能确保实际总成本不超过批准的 BAC。<br>至于所要求的这种绩效水平是否可行，就需要综合考虑多种因素（包括风险、项目剩余时间和技术绩效）后才能判断；如果不可行，就需要把项目未来所需的绩效水平调整为如 TCPI（EAC）线所示。基于 EAC 的 TCPI 公式：</p><p>TCPI &#x3D;（BAC – EV）&#x2F;（EAC – AC）。表 7-1 列出了 EVM 的计算公式。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 监控过程组 </tag>
+            
+            <tag> 控制成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>控制成本</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>控制成本是监督项目状态，以更新项目成本和管理成本基准变更的过程。</p><p>本过程的主要作用是，在整个项目期间保持对成本基准的维护。</p><p>本过程需要在整个项目期间开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.4控制成本.png"><br>要更新预算，就需要了解截至目前的实际成本。</p><p>只有经过实施整体变更控制过程（见 4.6 节）的批准，才可以增加预算。</p><p>只监督资金的支出，而不考虑由这些支出所完成的工作的价值，对项目没有什么意义，最多只能跟踪资金流。</p><p>所以在成本控制中，应重点分析项目资金支出与相应完成的工作之间的关系。</p><p>有效成本控制的关键在于管理经批准的成本基准。</p><p>项目成本控制包括：</p><ul><li><p>对造成成本基准变更的因素施加影响；</p></li><li><p>确保所有变更请求都得到及时处理；</p></li><li><p>当变更实际发生时，管理这些变更；</p></li><li><p>确保成本支出不超过批准的资金限额，既不超出按时段、按 WBS 组件、按活动分配的限额，也不超出项目总限额；</p></li><li><p>监督成本绩效，找出并分析与成本基准间的偏差；</p></li><li><p>对照资金支出，监督工作绩效；</p></li><li><p>防止在成本或资源使用报告中出现未经批准的变更；</p></li><li><p>向相关方报告所有经批准的变更及其相关成本；</p></li><li><p>设法把预期的成本超支控制在可接受的范围内。</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 监控过程组 </tag>
+            
+            <tag> 控制成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>估算成本</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<p>估算成本是对完成项目工作所需资源成本进行近似估算的过程。</p><p>本过程的主要作用是，确定项目所需的资金。</p><p>本过程应根据需要在整个项目期间定期开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.2估算成本.png"><br>成本估算是对完成活动所需资源的可能成本的量化评估，是在某特定时点，根据已知信息所做出的成本预测。</p><p>在估算成本时，需要识别和分析可用于启动与完成项目的备选成本方案；需要权衡备选成本方案并考虑风险，如比较自制成本与外购成本、购买成本与租赁成本及多种资源共享方案，以优化项目成本。</p><p>通常用某种货币单位（如美元、欧元、日元等）进行成本估算，但有时也可采用其他计量单位，如人时数或人天数，以消除通货膨胀的影响，便于成本比较。</p><p>在项目过程中，应该随着更详细信息的呈现和假设条件的验证，对成本估算进行审查和优化。</p><p>在项目生命周期中，项目估算的准确性亦将随着项目的进展而逐步提高。<br>例如，在启动阶段可得出项目的粗略量级估算（Rough Order of Magnitude，ROM），其区间为 −25% 到 +75%；之后，随着信息越来越详细，确定性估算的区间可缩小至 −5% 到 +10%。<br>某些组织已经制定出相应的指南，规定何时进行优化，以及每次优化所要达到的置信度或准确度。</p><p>进行成本估算，应该考虑将向项目收费的全部资源，包括（但不限于）人工、材料、设备、服务、设施，以及一些特殊的成本种类，如通货膨胀补贴、融资成本或应急成本。</p><p>成本估算可在活动层级呈现，也可以汇总形式呈现。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 估算成本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>制定预算</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<p>制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。</p><p>本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。</p><p>本过程仅开展一次或仅在项目的预定义点开展。  </p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.3制定预算.png"><p>项目预算包括经批准用于执行项目的全部资金，而成本基准是经过批准且按时间段分配的项目预算，包括应急储备，但不包括管理储备。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>历史信息审核</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/</url>
+      
+        <content type="html"><![CDATA[<p>审核历史信息有助于进行参数估算或类比估算。<br>历史信息可包括各种项目特征（参数），它们用于建立数学模型预测项目总成本。<br>这些数学模型可以是简单的（例如，建造住房的总成本取决于单位面积建造成本），也可以是复杂的（例如，软件开发项目的成本模型中有多个变量，且每个变量又受许多因素的影响）。</p><p>类比和参数模型的成本及准确性可能差别很大。在以下情况下，它们将最为可靠：</p><ul><li>用来建立模型的历史信息准确；</li><li>模型中的参数易于量化；</li><li>模型可以调整，以便对大项目、小项目和各项目阶段都适用。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本基准</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/</url>
+      
+        <content type="html"><![CDATA[<p>成本基准是经过批准的、按时间段分配的项目预算，不包括任何管理储备，只有通过正式的变更控制程序才能变更，用作与实际结果进行比较的依据。<br>成本基准是不同进度活动经批准的预算的总和。</p><p>项目预算和成本基准的各个组成部分，如图 7-8 所示。先汇总各项目活动的成本估算及其应急储备（见 7.2.2.6 节），得到相关工作包的成本；<br>然后汇总各工作包的成本估算及其应急储备，得到控制账户的成本；接着再汇总各控制账户的成本，得到成本基准。<br>由于成本基准中的成本估算与进度活动直接关联，因此就可按时间段分配成本基准，得到一条 S 曲线，如图 7-9 所示。<br>对于使用挣值管理的项目，成本基准指的是绩效测量基准。</p><p>最后，在成本基准之上增加管理储备（见 7.2.2.3 节），得到项目预算。<br>当出现有必要动用管理储备的变更时，则应该在获得变更控制过程的批准之后，把适量的管理储备移入成本基准中。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本汇总</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<p>先把成本估算汇总到 WBS 中的工作包，再由工作包汇总至 WBS 的更高层次（如控制账户），最终得出整个项目的总成本。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>融资</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/</url>
+      
+        <content type="html"><![CDATA[<p>融资是指为项目获取资金。<br>长期的基础设施、工业和公共服务项目通常会寻求外部融资。<br>如果项目使用外部资金，出资实体可能会提出一些必须满足的要求。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>资金限制平衡</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/</url>
+      
+        <content type="html"><![CDATA[<p>应该根据对项目资金的任何限制，来平衡资金支出。<br>如果发现资金限制与计划支出之间的差异，则可能需要调整工作的进度计划，以平衡资金支出水平。<br>这可以通过在项目进度计划中添加强制日期来实现。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>项目资金需求</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/</url>
+      
+        <content type="html"><![CDATA[<p>根据成本基准，确定总资金需求和阶段性（如季度或年度）资金需求。<br>成本基准中既包括预计支出及预计债务。<br>项目资金通常以增量的方式投入，并且可能是非均衡的，呈现出图 7-9 中所示的阶梯状。</p><p>如果有管理储备，则总资金需求等于成本基准加管理储备。<br>在资金需求文件中，也可说明资金来源。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 制定预算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成本管理计划</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<p>成本管理计划是项目管理计划的组成部分，描述将如何规划、安排和控制项目成本。<br>成本管理过程及其工具与技术应记录在成本管理计划中。</p><p>例如，在成本管理计划中规定：</p><ul><li>计量单位。需要规定每种资源的计量单位，例如用于测量时间的人时数、人天数或周数，用于计量数量的米、升、吨、千米或立方码，或者用货币表示的总价。</li><li>精确度。根据活动范围和项目规模，设定成本估算向上或向下取整的程度（例如 995.59 美元取整为 1,000 美元）。</li><li>准确度。为活动成本估算规定一个可接受的区间（如 ±10%），其中可能包括一定数量的应急储备。</li><li>组织程序链接。工作分解结构（见 5.4 节）为成本管理计划提供了框架，以便据此规范地开展成本估算、预算和控制。在项目成本核算中使用的 WBS 组成部分，称为控制账户（CA），每个控制账户都有唯一的编码或账号，直接与执行组织的会计制度相联系。</li><li>控制临界值。可能需要规定偏差临界值，用于监督成本绩效。它是在需要采取某种措施前，允许出现的最大差异，通常用偏离基准计划的百分数来表示。</li><li>绩效测量规则。需要规定用于绩效测量的挣值管理（EVM）规则。例如，成本管理计划应该：</li><li>定义 WBS 中用于绩效测量的控制账户；</li><li>确定拟用的 EVM 技术（如加权里程碑法、固定公式法、完成百分比法等）；</li><li>规定跟踪方法，以及用于计算项目完工估算（EAC）的 EVM 公式，该公式计算出的结果可用于验证通过自下而上方法得出的完工估算。</li><li>报告格式。需要规定各种成本报告的格式和编制频率。</li><li>其他细节。关于成本管理活动的其他细节包括（但不限于）：</li><li>对战略筹资方案的说明；</li><li>处理汇率波动的程序；</li><li>记录项目成本的程序。<br>关于挣值管理的更多信息，参见《挣值管理实践标准》（第 2 版）[17]。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 规划成本管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>规划成本管理</title>
+      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>规划成本管理是确定如何估算、预算、管理、监督和控制项目成本的过程。</p><p>本过程的主要作用是，在整个项目期间为如何管理项目成本提供指南和方向。</p><p>本过程仅开展一次或仅在项目的预定义点开展。</p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.1规划成本管理.png">]]></content>
+      
+      
+      <categories>
+          
+          <category> 项目管理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PMP </tag>
+            
+            <tag> 项目成本管理 </tag>
+            
+            <tag> 规划过程组 </tag>
+            
+            <tag> 规划成本管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>专家判断</title>
       <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B/%E4%B8%93%E5%AE%B6%E5%88%A4%E6%96%AD/"/>
       <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88%E7%AE%A1%E7%90%86/%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A1%B9%E7%9B%AE%E7%AB%A0%E7%A8%8B/%E4%B8%93%E5%AE%B6%E5%88%A4%E6%96%AD/</url>
@@ -3974,9 +4346,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 实施整体变更控制 </tag>
             
@@ -4005,9 +4377,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 实施整体变更控制 </tag>
             
@@ -4036,9 +4408,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4067,9 +4439,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4098,9 +4470,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4129,9 +4501,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 监控过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 监控项目工作 </tag>
             
@@ -4160,9 +4532,9 @@
             
             <tag> PMP </tag>
             
-            <tag> 项目整合管理 </tag>
-            
             <tag> 规划过程组 </tag>
+            
+            <tag> 项目整合管理 </tag>
             
             <tag> 制定项目管理计划 </tag>
             
@@ -4191,383 +4563,11 @@
             
             <tag> PMP </tag>
             
+            <tag> 规划过程组 </tag>
+            
             <tag> 项目整合管理 </tag>
             
-            <tag> 规划过程组 </tag>
-            
             <tag> 制定项目管理计划 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>完工尚需绩效指数</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E5%AE%8C%E5%B7%A5%E5%B0%9A%E9%9C%80%E7%BB%A9%E6%95%88%E6%8C%87%E6%95%B0/</url>
-      
-        <content type="html"><![CDATA[<p>完工尚需绩效指数（TCPI）是一种为了实现特定的管理目标，剩余资源的使用必须达到的成本绩效指标，是完成剩余工作所需的成本与剩余预算之比。<br>TCPI 是指为了实现具体的管理目标（如BAC 或 EAC），剩余工作的实施必须达到的成本绩效指标。<br>如果 BAC 已明显不再可行，则项目经理应考虑使用预测的 EAC。<br>经过批准后，就用 EAC 取代 BAC。基于 BAC 的 TCPI 公式：TCPI &#x3D;（BAC –EV）&#x2F;（BAC – AC）。</p><p>TCPI 的概念可用图 7-13 表示。<br>其计算公式在图的左下角，用剩余工作（BAC 减去 EV）除以剩余资金（可以是 BAC 减去 AC，或 EAC 减去 AC）。</p><p>如果累计 CPI 低于基准（如图 7-13 所示），那么项目的全部剩余工作都应立即按 TCPI（BAC）（图7-13 中最高的那条线）执行，才能确保实际总成本不超过批准的 BAC。<br>至于所要求的这种绩效水平是否可行，就需要综合考虑多种因素（包括风险、项目剩余时间和技术绩效）后才能判断；如果不可行，就需要把项目未来所需的绩效水平调整为如 TCPI（EAC）线所示。基于 EAC 的 TCPI 公式：</p><p>TCPI &#x3D;（BAC – EV）&#x2F;（EAC – AC）。表 7-1 列出了 EVM 的计算公式。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 监控过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 控制成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>控制成本</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E7%9B%91%E6%8E%A7%E8%BF%87%E7%A8%8B%E7%BB%84/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/%E6%8E%A7%E5%88%B6%E6%88%90%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<p>控制成本是监督项目状态，以更新项目成本和管理成本基准变更的过程。</p><p>本过程的主要作用是，在整个项目期间保持对成本基准的维护。</p><p>本过程需要在整个项目期间开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.4控制成本.png"><br>要更新预算，就需要了解截至目前的实际成本。</p><p>只有经过实施整体变更控制过程（见 4.6 节）的批准，才可以增加预算。</p><p>只监督资金的支出，而不考虑由这些支出所完成的工作的价值，对项目没有什么意义，最多只能跟踪资金流。</p><p>所以在成本控制中，应重点分析项目资金支出与相应完成的工作之间的关系。</p><p>有效成本控制的关键在于管理经批准的成本基准。</p><p>项目成本控制包括：</p><ul><li><p>对造成成本基准变更的因素施加影响；</p></li><li><p>确保所有变更请求都得到及时处理；</p></li><li><p>当变更实际发生时，管理这些变更；</p></li><li><p>确保成本支出不超过批准的资金限额，既不超出按时段、按 WBS 组件、按活动分配的限额，也不超出项目总限额；</p></li><li><p>监督成本绩效，找出并分析与成本基准间的偏差；</p></li><li><p>对照资金支出，监督工作绩效；</p></li><li><p>防止在成本或资源使用报告中出现未经批准的变更；</p></li><li><p>向相关方报告所有经批准的变更及其相关成本；</p></li><li><p>设法把预期的成本超支控制在可接受的范围内。</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 监控过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 控制成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>估算成本</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/%E4%BC%B0%E7%AE%97%E6%88%90%E6%9C%AC/</url>
-      
-        <content type="html"><![CDATA[<p>估算成本是对完成项目工作所需资源成本进行近似估算的过程。</p><p>本过程的主要作用是，确定项目所需的资金。</p><p>本过程应根据需要在整个项目期间定期开展。<br><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.2估算成本.png"><br>成本估算是对完成活动所需资源的可能成本的量化评估，是在某特定时点，根据已知信息所做出的成本预测。</p><p>在估算成本时，需要识别和分析可用于启动与完成项目的备选成本方案；需要权衡备选成本方案并考虑风险，如比较自制成本与外购成本、购买成本与租赁成本及多种资源共享方案，以优化项目成本。</p><p>通常用某种货币单位（如美元、欧元、日元等）进行成本估算，但有时也可采用其他计量单位，如人时数或人天数，以消除通货膨胀的影响，便于成本比较。</p><p>在项目过程中，应该随着更详细信息的呈现和假设条件的验证，对成本估算进行审查和优化。</p><p>在项目生命周期中，项目估算的准确性亦将随着项目的进展而逐步提高。<br>例如，在启动阶段可得出项目的粗略量级估算（Rough Order of Magnitude，ROM），其区间为 −25% 到 +75%；之后，随着信息越来越详细，确定性估算的区间可缩小至 −5% 到 +10%。<br>某些组织已经制定出相应的指南，规定何时进行优化，以及每次优化所要达到的置信度或准确度。</p><p>进行成本估算，应该考虑将向项目收费的全部资源，包括（但不限于）人工、材料、设备、服务、设施，以及一些特殊的成本种类，如通货膨胀补贴、融资成本或应急成本。</p><p>成本估算可在活动层级呈现，也可以汇总形式呈现。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 估算成本 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>制定预算</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/</url>
-      
-        <content type="html"><![CDATA[<p>制定预算是汇总所有单个活动或工作包的估算成本，建立一个经批准的成本基准的过程。</p><p>本过程的主要作用是，确定可据以监督和控制项目绩效的成本基准。</p><p>本过程仅开展一次或仅在项目的预定义点开展。  </p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.3制定预算.png"><p>项目预算包括经批准用于执行项目的全部资金，而成本基准是经过批准且按时间段分配的项目预算，包括应急储备，但不包括管理储备。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>历史信息审核</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E5%8E%86%E5%8F%B2%E4%BF%A1%E6%81%AF%E5%AE%A1%E6%A0%B8/</url>
-      
-        <content type="html"><![CDATA[<p>审核历史信息有助于进行参数估算或类比估算。<br>历史信息可包括各种项目特征（参数），它们用于建立数学模型预测项目总成本。<br>这些数学模型可以是简单的（例如，建造住房的总成本取决于单位面积建造成本），也可以是复杂的（例如，软件开发项目的成本模型中有多个变量，且每个变量又受许多因素的影响）。</p><p>类比和参数模型的成本及准确性可能差别很大。在以下情况下，它们将最为可靠：</p><ul><li>用来建立模型的历史信息准确；</li><li>模型中的参数易于量化；</li><li>模型可以调整，以便对大项目、小项目和各项目阶段都适用。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本基准</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E5%9F%BA%E5%87%86/</url>
-      
-        <content type="html"><![CDATA[<p>成本基准是经过批准的、按时间段分配的项目预算，不包括任何管理储备，只有通过正式的变更控制程序才能变更，用作与实际结果进行比较的依据。<br>成本基准是不同进度活动经批准的预算的总和。</p><p>项目预算和成本基准的各个组成部分，如图 7-8 所示。先汇总各项目活动的成本估算及其应急储备（见 7.2.2.6 节），得到相关工作包的成本；<br>然后汇总各工作包的成本估算及其应急储备，得到控制账户的成本；接着再汇总各控制账户的成本，得到成本基准。<br>由于成本基准中的成本估算与进度活动直接关联，因此就可按时间段分配成本基准，得到一条 S 曲线，如图 7-9 所示。<br>对于使用挣值管理的项目，成本基准指的是绩效测量基准。</p><p>最后，在成本基准之上增加管理储备（见 7.2.2.3 节），得到项目预算。<br>当出现有必要动用管理储备的变更时，则应该在获得变更控制过程的批准之后，把适量的管理储备移入成本基准中。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本汇总</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E6%88%90%E6%9C%AC%E6%B1%87%E6%80%BB/</url>
-      
-        <content type="html"><![CDATA[<p>先把成本估算汇总到 WBS 中的工作包，再由工作包汇总至 WBS 的更高层次（如控制账户），最终得出整个项目的总成本。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>融资</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%9E%8D%E8%B5%84/</url>
-      
-        <content type="html"><![CDATA[<p>融资是指为项目获取资金。<br>长期的基础设施、工业和公共服务项目通常会寻求外部融资。<br>如果项目使用外部资金，出资实体可能会提出一些必须满足的要求。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>资金限制平衡</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E8%B5%84%E9%87%91%E9%99%90%E5%88%B6%E5%B9%B3%E8%A1%A1/</url>
-      
-        <content type="html"><![CDATA[<p>应该根据对项目资金的任何限制，来平衡资金支出。<br>如果发现资金限制与计划支出之间的差异，则可能需要调整工作的进度计划，以平衡资金支出水平。<br>这可以通过在项目进度计划中添加强制日期来实现。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>项目资金需求</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E5%88%B6%E5%AE%9A%E9%A2%84%E7%AE%97/%E9%A1%B9%E7%9B%AE%E8%B5%84%E9%87%91%E9%9C%80%E6%B1%82/</url>
-      
-        <content type="html"><![CDATA[<p>根据成本基准，确定总资金需求和阶段性（如季度或年度）资金需求。<br>成本基准中既包括预计支出及预计债务。<br>项目资金通常以增量的方式投入，并且可能是非均衡的，呈现出图 7-9 中所示的阶梯状。</p><p>如果有管理储备，则总资金需求等于成本基准加管理储备。<br>在资金需求文件中，也可说明资金来源。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 制定预算 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>成本管理计划</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92/</url>
-      
-        <content type="html"><![CDATA[<p>成本管理计划是项目管理计划的组成部分，描述将如何规划、安排和控制项目成本。<br>成本管理过程及其工具与技术应记录在成本管理计划中。</p><p>例如，在成本管理计划中规定：</p><ul><li>计量单位。需要规定每种资源的计量单位，例如用于测量时间的人时数、人天数或周数，用于计量数量的米、升、吨、千米或立方码，或者用货币表示的总价。</li><li>精确度。根据活动范围和项目规模，设定成本估算向上或向下取整的程度（例如 995.59 美元取整为 1,000 美元）。</li><li>准确度。为活动成本估算规定一个可接受的区间（如 ±10%），其中可能包括一定数量的应急储备。</li><li>组织程序链接。工作分解结构（见 5.4 节）为成本管理计划提供了框架，以便据此规范地开展成本估算、预算和控制。在项目成本核算中使用的 WBS 组成部分，称为控制账户（CA），每个控制账户都有唯一的编码或账号，直接与执行组织的会计制度相联系。</li><li>控制临界值。可能需要规定偏差临界值，用于监督成本绩效。它是在需要采取某种措施前，允许出现的最大差异，通常用偏离基准计划的百分数来表示。</li><li>绩效测量规则。需要规定用于绩效测量的挣值管理（EVM）规则。例如，成本管理计划应该：</li><li>定义 WBS 中用于绩效测量的控制账户；</li><li>确定拟用的 EVM 技术（如加权里程碑法、固定公式法、完成百分比法等）；</li><li>规定跟踪方法，以及用于计算项目完工估算（EAC）的 EVM 公式，该公式计算出的结果可用于验证通过自下而上方法得出的完工估算。</li><li>报告格式。需要规定各种成本报告的格式和编制频率。</li><li>其他细节。关于成本管理活动的其他细节包括（但不限于）：</li><li>对战略筹资方案的说明；</li><li>处理汇率波动的程序；</li><li>记录项目成本的程序。<br>关于挣值管理的更多信息，参见《挣值管理实践标准》（第 2 版）[17]。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划成本管理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>规划成本管理</title>
-      <link href="/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
-      <url>/PMP/%E9%A1%B9%E7%9B%AE%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E8%BF%87%E7%A8%8B%E7%BB%84/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/%E8%A7%84%E5%88%92%E6%88%90%E6%9C%AC%E7%AE%A1%E7%90%86/</url>
-      
-        <content type="html"><![CDATA[<p>规划成本管理是确定如何估算、预算、管理、监督和控制项目成本的过程。</p><p>本过程的主要作用是，在整个项目期间为如何管理项目成本提供指南和方向。</p><p>本过程仅开展一次或仅在项目的预定义点开展。</p><img src="https://ddabb.github.io/photos/pmpimages/数据流向图/7.1规划成本管理.png">]]></content>
-      
-      
-      <categories>
-          
-          <category> 项目管理 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PMP </tag>
-            
-            <tag> 规划过程组 </tag>
-            
-            <tag> 项目成本管理 </tag>
-            
-            <tag> 规划成本管理 </tag>
             
         </tags>
       
@@ -7362,7 +7362,7 @@
       <link href="/bio/"/>
       <url>/bio/</url>
       
-        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东广州</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#52;&#49;&#x37;&#49;&#52;&#52;&#52;&#x35;&#50;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#109;">&#52;&#49;&#x37;&#49;&#52;&#52;&#52;&#x35;&#50;&#64;&#113;&#113;&#x2e;&#99;&#x6f;&#109;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li></ul><h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><p>广州市睿明计算机科技有限公司<br><a href="http://www.anta.com/">中国（安踏）有限公司</a><br><a href="http://www.boykee.com/">广州市铂铱柯信息科技有限公司</a><br><a href="http://www.homonia.com/">北京和信融慧信息科技有限公司</a>  </p><h1 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h1><p>业务:</p><ul><li>RPA系统的设计开发  </li><li><a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>系统的设计开发  </li><li><a href="https://baike.baidu.com/item/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">ESCM</a>系统的设计开发</li></ul><p>框架：    </p><ul><li>基于<a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>框架的 Web 系统设计开发</li><li>对于前端框架 <a href="http://cn.inspinia.cn/">Inspina</a>、BootStrap、Jquery、<a href="https://www.layui.com/">Layui</a>等有使用经验</li></ul><p>技术：</p><ul><li>webform项目重构及性能调优</li><li>winform项目重构及性能调优</li><li>webapi,webservice</li><li>.net core和gensql结合开发  </li><li>IDE ：VS code,Visual Studio 2017,SSMS</li></ul><p>其他：  </p><ul><li><strong>DB：</strong> 主要使用sqlserver为主,对mysql,PostgreSQL,redis等数据库有基本的了解  </li><li><strong>消息队列：</strong> RabbitMq,Redis  </li><li><strong>开发语言：</strong> 主要使用C#和sql为主,用java、vb、python等语言做过基本功能。  </li><li><strong>版本管理:</strong> 主要使用SVN、Git、VSS</li><li><strong>反编译工具:</strong> dnspy&#x2F;ILSpy，JetBrains dotPeek，.Net Reflector，Telerik JustDecompile</li></ul><h1 id="开发经历"><a href="#开发经历" class="headerlink" title="开发经历"></a>开发经历</h1><h2 id="ISSUE管理系统"><a href="#ISSUE管理系统" class="headerlink" title="ISSUE管理系统"></a>ISSUE管理系统</h2><ul><li><strong>时间：</strong> 一周</li><li><strong>描述：</strong> 统计公司项目的问题，统计分析问题进展情况。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>状态：</strong> 成功上线</li><li><strong>团队规模：</strong> 1人</li><li><strong>总结</strong><br> 该系统基于webform开发。<br> 该系统实现了多人多项目的状态管理,实现了ISSUE单据的assign，日报，周报，发送邮件通知等功能，对公司的项目管理质量有明显的提升，是个轻巧灵活的ISSUE管理系统。<br> 通过该系统掌握了window定时任务，发送邮件等基本功能。<br> 随着工作经验的丰富，发现有tower,jira等工具可以使用,比自己写的ISSUE管理系统相对而言要健壮,美观一些。<br> 该系统算是敏捷开发的一次不错的尝试。</li></ul><h2 id="SqlSever迁移到Mysql项目"><a href="#SqlSever迁移到Mysql项目" class="headerlink" title="SqlSever迁移到Mysql项目"></a>SqlSever迁移到Mysql项目</h2><ul><li><strong>时间：</strong> 一个月</li><li><strong>描述：</strong> 重构项目,目标是实现SqlServer数据库到Mysql数据库的迁移。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 研发人员</li><li><strong>团队规模：</strong> 3人</li><li><strong>状态：</strong> 成功上线</li><li><strong>总结</strong><br> 该系统基于winform开发。<br> 该项目的目标是底层数据库并行支持mysql或者sqlserver,项目目标是600多个sql server的sql语句需要支持mysql版本的实现。<br> 通过该项目对比总结了mysql和sqlserver的语法和字段类型的差异，并温习了策略模式。<br> 因项目时间有限等原因,故没有采取将原生sql重构成EF实现的这种方式,若采用EF实现,可以更加便捷地继续向PostgreSQL等数据库进行迁移。</li></ul><h2 id="搭建个人博客系统"><a href="#搭建个人博客系统" class="headerlink" title="搭建个人博客系统"></a>搭建个人博客系统</h2><ul><li><strong>时间：</strong> 三个月的业余时间</li><li><strong>描述：</strong> 该项目的目标是基于.net core构建一个博客系统,该博客系统具备编辑，分类，标签，评论等功能。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>团队规模：</strong> 1人</li><li><strong>项目状态：</strong> <strong><font color="#FF0000">既有失败,又有成功</font></strong></li><li><strong>总结</strong><br> 该系统基于.netcore开发。<br> 该系统失败的定义是我没有实现基于.netcore搭建出来一套具备编辑，分类，标签，评论等功能的博客系统的这个目标。<br> 该系统成功的部分在于基于该目标,我接触了很多之前没有接触的知识点。比如markdown,.netcore+dbfirst,PostgreSQL开发等等。<br> 在摸索该目标的过程中发现了Hexo这一套可以自己选择主题定制化的博客系统，并基于此搭建了一个属于自己的博客站点——<a href="https://ddabb.github.io/">60分加油站</a>。<br> 该项目的经验是 **<font color="#FF0000">一定要记住项目立项的最重要的目标是什么。</font>**，该项目的主要目标是一个博客系统,而创建一个博客系统的目标是对个人知识进行一个归纳整理，现在已经可以通过Hexo框架对个人知识进行归纳整理，就无需要再制造新的车轮了。</li></ul><h1 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h1><ul><li>个人遵循**”Do not repeat yourself”**原则，想法设法将重复低效的事情交由系统执行。</li><li>认可开源分享理念,混迹于github,oschina等站点,并认为开源促进社会进步。乐于总结和分享个人经验。座右铭——<strong>不接触，不了解；不分享，不成长。</strong></li><li>对算法以及AI等方向比较感兴趣  </li><li>做事专一，热衷于在一个领域持续积累经验并有所作为。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东广州</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#52;&#49;&#55;&#x31;&#x34;&#x34;&#x34;&#53;&#50;&#64;&#113;&#x71;&#46;&#x63;&#111;&#109;">&#52;&#49;&#55;&#x31;&#x34;&#x34;&#x34;&#53;&#50;&#64;&#113;&#x71;&#46;&#x63;&#111;&#109;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li></ul><h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><p>广州市睿明计算机科技有限公司<br><a href="http://www.anta.com/">中国（安踏）有限公司</a><br><a href="http://www.boykee.com/">广州市铂铱柯信息科技有限公司</a><br><a href="http://www.homonia.com/">北京和信融慧信息科技有限公司</a>  </p><h1 id="擅长领域"><a href="#擅长领域" class="headerlink" title="擅长领域"></a>擅长领域</h1><p>业务:</p><ul><li>RPA系统的设计开发  </li><li><a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>系统的设计开发  </li><li><a href="https://baike.baidu.com/item/%E4%BE%9B%E5%BA%94%E5%95%86%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F">ESCM</a>系统的设计开发</li></ul><p>框架：    </p><ul><li>基于<a href="https://dynamics.microsoft.com/zh-cn/dynamics-crm/">CRM</a>框架的 Web 系统设计开发</li><li>对于前端框架 <a href="http://cn.inspinia.cn/">Inspina</a>、BootStrap、Jquery、<a href="https://www.layui.com/">Layui</a>等有使用经验</li></ul><p>技术：</p><ul><li>webform项目重构及性能调优</li><li>winform项目重构及性能调优</li><li>webapi,webservice</li><li>.net core和gensql结合开发  </li><li>IDE ：VS code,Visual Studio 2017,SSMS</li></ul><p>其他：  </p><ul><li><strong>DB：</strong> 主要使用sqlserver为主,对mysql,PostgreSQL,redis等数据库有基本的了解  </li><li><strong>消息队列：</strong> RabbitMq,Redis  </li><li><strong>开发语言：</strong> 主要使用C#和sql为主,用java、vb、python等语言做过基本功能。  </li><li><strong>版本管理:</strong> 主要使用SVN、Git、VSS</li><li><strong>反编译工具:</strong> dnspy&#x2F;ILSpy，JetBrains dotPeek，.Net Reflector，Telerik JustDecompile</li></ul><h1 id="开发经历"><a href="#开发经历" class="headerlink" title="开发经历"></a>开发经历</h1><h2 id="ISSUE管理系统"><a href="#ISSUE管理系统" class="headerlink" title="ISSUE管理系统"></a>ISSUE管理系统</h2><ul><li><strong>时间：</strong> 一周</li><li><strong>描述：</strong> 统计公司项目的问题，统计分析问题进展情况。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>状态：</strong> 成功上线</li><li><strong>团队规模：</strong> 1人</li><li><strong>总结</strong><br> 该系统基于webform开发。<br> 该系统实现了多人多项目的状态管理,实现了ISSUE单据的assign，日报，周报，发送邮件通知等功能，对公司的项目管理质量有明显的提升，是个轻巧灵活的ISSUE管理系统。<br> 通过该系统掌握了window定时任务，发送邮件等基本功能。<br> 随着工作经验的丰富，发现有tower,jira等工具可以使用,比自己写的ISSUE管理系统相对而言要健壮,美观一些。<br> 该系统算是敏捷开发的一次不错的尝试。</li></ul><h2 id="SqlSever迁移到Mysql项目"><a href="#SqlSever迁移到Mysql项目" class="headerlink" title="SqlSever迁移到Mysql项目"></a>SqlSever迁移到Mysql项目</h2><ul><li><strong>时间：</strong> 一个月</li><li><strong>描述：</strong> 重构项目,目标是实现SqlServer数据库到Mysql数据库的迁移。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 研发人员</li><li><strong>团队规模：</strong> 3人</li><li><strong>状态：</strong> 成功上线</li><li><strong>总结</strong><br> 该系统基于winform开发。<br> 该项目的目标是底层数据库并行支持mysql或者sqlserver,项目目标是600多个sql server的sql语句需要支持mysql版本的实现。<br> 通过该项目对比总结了mysql和sqlserver的语法和字段类型的差异，并温习了策略模式。<br> 因项目时间有限等原因,故没有采取将原生sql重构成EF实现的这种方式,若采用EF实现,可以更加便捷地继续向PostgreSQL等数据库进行迁移。</li></ul><h2 id="搭建个人博客系统"><a href="#搭建个人博客系统" class="headerlink" title="搭建个人博客系统"></a>搭建个人博客系统</h2><ul><li><strong>时间：</strong> 三个月的业余时间</li><li><strong>描述：</strong> 该项目的目标是基于.net core构建一个博客系统,该博客系统具备编辑，分类，标签，评论等功能。</li><li><strong>职责：</strong> 全栈</li><li><strong>角色：</strong> 全栈</li><li><strong>团队规模：</strong> 1人</li><li><strong>项目状态：</strong> <strong><font color="#FF0000">既有失败,又有成功</font></strong></li><li><strong>总结</strong><br> 该系统基于.netcore开发。<br> 该系统失败的定义是我没有实现基于.netcore搭建出来一套具备编辑，分类，标签，评论等功能的博客系统的这个目标。<br> 该系统成功的部分在于基于该目标,我接触了很多之前没有接触的知识点。比如markdown,.netcore+dbfirst,PostgreSQL开发等等。<br> 在摸索该目标的过程中发现了Hexo这一套可以自己选择主题定制化的博客系统，并基于此搭建了一个属于自己的博客站点——<a href="https://ddabb.github.io/">60分加油站</a>。<br> 该项目的经验是 **<font color="#FF0000">一定要记住项目立项的最重要的目标是什么。</font>**，该项目的主要目标是一个博客系统,而创建一个博客系统的目标是对个人知识进行一个归纳整理，现在已经可以通过Hexo框架对个人知识进行归纳整理，就无需要再制造新的车轮了。</li></ul><h1 id="自我评价"><a href="#自我评价" class="headerlink" title="自我评价"></a>自我评价</h1><ul><li>个人遵循**”Do not repeat yourself”**原则，想法设法将重复低效的事情交由系统执行。</li><li>认可开源分享理念,混迹于github,oschina等站点,并认为开源促进社会进步。乐于总结和分享个人经验。座右铭——<strong>不接触，不了解；不分享，不成长。</strong></li><li>对算法以及AI等方向比较感兴趣  </li><li>做事专一，热衷于在一个领域持续积累经验并有所作为。</li></ul>]]></content>
       
       
       
@@ -7381,7 +7381,7 @@
       <link href="/contactme/"/>
       <url>/contactme/</url>
       
-        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东深圳</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#49;&#48;&#49;&#x31;&#x38;&#56;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;">&#49;&#48;&#49;&#x31;&#x38;&#56;&#56;&#56;&#57;&#x31;&#x40;&#x71;&#113;&#46;&#x63;&#111;&#109;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li><li><strong>个人网站</strong> <a href="https://www.60points.com/">https://www.60points.com</a></li><li><strong>个人技能</strong> 微信小程序,C#</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="个人基本信息"><a href="#个人基本信息" class="headerlink" title="个人基本信息"></a>个人基本信息</h1><ul><li><strong>姓名</strong> 刘石丰</li><li><strong>性别</strong> 男</li><li><strong>学历</strong> 本科</li><li><strong>专业</strong> 电子信息工程</li><li><strong>院校</strong> 中南林业科技大学</li><li><strong>政治面貌</strong> 人民群众</li><li><strong>所在城市</strong> 广东深圳</li><li><strong>移动电话</strong> 18664891357</li><li><strong>电子邮件</strong> <a href="mailto:&#x31;&#x30;&#49;&#x31;&#x38;&#56;&#56;&#56;&#x39;&#x31;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#x31;&#x30;&#49;&#x31;&#x38;&#56;&#56;&#56;&#x39;&#x31;&#64;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></li><li><strong>Github</strong> @ddabb</li><li><strong>个人博客</strong> <a href="https://ddabb.github.io/">https://ddabb.github.io</a></li><li><strong>求职状态</strong> 在职，无离职意向</li><li><strong>个人网站</strong> <a href="https://www.60points.com/">https://www.60points.com</a></li><li><strong>个人技能</strong> 微信小程序,C#</li></ul>]]></content>
       
       
       <categories>
